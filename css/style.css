@@ -327,6 +327,34 @@ ul.am-dropdown-content > li > a {
     height: 80px;
 }
 
+.projects {
+    width: 100%;
+    clear: left;
+    height: 100%;
+    background: #110651;
+}
+
+.projects ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+}
+
+.projects li {
+    margin: 0px;
+    list-style: none;
+    overflow: hidden;
+}
+
+.projects-section {
+    overflow: hidden;
+    clear: both;
+    float: left;
+    display: block;
+    position: relative;
+}
+
 .main-section, .section-bg {
     /*min-height: 660px;*/
     width: 100%;
@@ -1912,6 +1940,13 @@ body .about-container-section .am-gallery-imgbordered .am-gallery-item img.techn
 
     .section-left .section-one-desc, .section-one-right .section-one-desc {
         font-size: 23px;
+    }
+
+    .section-x-bg {
+        background-size: cover;
+        background-position: bottom right;
+        position: relative;
+        height: 600px;
     }
 
     .section-two-bg {
