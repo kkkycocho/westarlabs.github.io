@@ -924,6 +924,16 @@ ul.am-dropdown-content > li > a {
     height: 55px;
 }
 
+.footer-light {
+    background: #f5f6f7;
+    color: #000000;
+}
+
+.footer-light .foolter-slogo {
+    color: #000;
+}
+
+
 /*item*/
 .item-container-section {
     background: rgba(245, 246, 247, 1);
@@ -978,15 +988,6 @@ ul.am-dropdown-content > li > a {
     display: block;
 }
 
-/*news*/
-.footer-news {
-    background: #f5f6f7;
-    color: #000000;
-}
-
-.footer-news .foolter-slogo {
-    color: #000;
-}
 
 .news-container-section {
     background: #FFFFFF;
@@ -1107,13 +1108,13 @@ ul.am-dropdown-content > li > a {
     border: none;
 }
 
-.news-header {
+.header-light {
     background: #FFFFFF;
     color: #000000;
     box-shadow: 5px 5px 5px #dddddd;
 }
 
-.news-header .am-topbar-nav > li > a {
+.header-light .am-topbar-nav > li > a {
     color: #000000;
 }
 
