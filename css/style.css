@@ -2544,3 +2544,10 @@ body .about-container-section .am-gallery-imgbordered .am-gallery-item img.techn
         line-height: 26px;
     }
 }
+
+.sharing-icons {
+    font-size: 4rem;
+}
+.sharing-icons .nav-item+.nav-item {
+    margin-left: 2rem;
+}
