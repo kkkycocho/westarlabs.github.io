@@ -1,1 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>concurrency on Westar</title><link>/tags/concurrency/</link><description>Recent content in concurrency on Westar</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 15 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/concurrency/index.xml" rel="self" type="application/rss+xml"/><item><title>Structured Concurrency in Rust</title><link>/blog/structured-concurrency-in-rust/</link><pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate><guid>/blog/structured-concurrency-in-rust/</guid><description>并发，是程序员在日常编程中难以绕开的话题，本文介绍一种并发编程范式-结构化并发(Structured Concurrency)。首先给出它的概</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>concurrency on Westar</title>
+    <link>/tags/concurrency/</link>
+    <description>Recent content in concurrency on Westar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 15 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/concurrency/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Structured Concurrency in Rust</title>
+      <link>/blog/structured-concurrency-in-rust/</link>
+      <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/structured-concurrency-in-rust/</guid>
+      <description>并发，是程序员在日常编程中难以绕开的话题，本文介绍一种并发编程范式-结构化并发(Structured Concurrency)。首先给出它的概</description>
+    </item>
+    
+  </channel>
+</rss>

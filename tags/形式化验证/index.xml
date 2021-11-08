@@ -1,1 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>形式化验证 on Westar</title><link>/tags/%E5%BD%A2%E5%BC%8F%E5%8C%96%E9%AA%8C%E8%AF%81/</link><description>Recent content in 形式化验证 on Westar</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 12 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/%E5%BD%A2%E5%BC%8F%E5%8C%96%E9%AA%8C%E8%AF%81/index.xml" rel="self" type="application/rss+xml"/><item><title>Move智能合约的形式化验证工具</title><link>/blog/move_prover/</link><pubDate>Wed, 12 Aug 2020 00:00:00 +0000</pubDate><guid>/blog/move_prover/</guid><description>智能合约是一个对安全性要求非常高的领域，一个不经意的小bug很可能会导致不可估量的损失。不久前Raven Project爆出了一个非常低级的b</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>形式化验证 on Westar</title>
+    <link>/tags/%E5%BD%A2%E5%BC%8F%E5%8C%96%E9%AA%8C%E8%AF%81/</link>
+    <description>Recent content in 形式化验证 on Westar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 12 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/%E5%BD%A2%E5%BC%8F%E5%8C%96%E9%AA%8C%E8%AF%81/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Move智能合约的形式化验证工具</title>
+      <link>/blog/move_prover/</link>
+      <pubDate>Wed, 12 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/move_prover/</guid>
+      <description>智能合约是一个对安全性要求非常高的领域，一个不经意的小bug很可能会导致不可估量的损失。不久前Raven Project爆出了一个非常低级的b</description>
+    </item>
+    
+  </channel>
+</rss>
