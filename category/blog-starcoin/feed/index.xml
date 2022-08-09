@@ -1,0 +1,1116 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Blog StarCoin &#8211; Westar</title>
+	<atom:link href="https://liangpin.ca/westar-demo/category/blog-starcoin/feed/" rel="self" type="application/rss+xml" />
+	<link>https://liangpin.ca/westar-demo</link>
+	<description>Crypto-Native Blockchain Enthusiasts</description>
+	<lastBuildDate>Thu, 28 Jul 2022 17:08:13 +0000</lastBuildDate>
+	<language>en-CA</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+
+<image>
+	<url>https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cropped-logo-icon-32x32.png</url>
+	<title>Blog StarCoin &#8211; Westar</title>
+	<link>https://liangpin.ca/westar-demo</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>The Evolution of smart Contracts in the Design of Move&#8217;s Architecture</title>
+		<link>https://liangpin.ca/westar-demo/the-evolution-of-smart-contracts-in-the-design-of-moves-architecture/</link>
+		
+		<dc:creator><![CDATA[westar-demo]]></dc:creator>
+		<pubDate>Wed, 27 Jul 2022 21:55:06 +0000</pubDate>
+				<category><![CDATA[Blog StarCoin]]></category>
+		<category><![CDATA[architecture]]></category>
+		<category><![CDATA[blockchain]]></category>
+		<category><![CDATA[blog]]></category>
+		<category><![CDATA[Builtin Methods]]></category>
+		<category><![CDATA[contract abstraction]]></category>
+		<category><![CDATA[cross contract call]]></category>
+		<category><![CDATA[ERC 20 Token]]></category>
+		<category><![CDATA[Ethereum]]></category>
+		<category><![CDATA[Inconsistent abstraction]]></category>
+		<category><![CDATA[libra]]></category>
+		<category><![CDATA[Libra Move]]></category>
+		<category><![CDATA[Move]]></category>
+		<category><![CDATA[on-chain native assets]]></category>
+		<category><![CDATA[smart contract]]></category>
+		<category><![CDATA[smart contract evolution]]></category>
+		<category><![CDATA[stage storage]]></category>
+		<category><![CDATA[starcoin]]></category>
+		<guid isPermaLink="false">https://liangpin.ca/westar-demo/?p=1054</guid>
+
+					<description><![CDATA[The Evolution of Smart Contracts in the Design of Move’s Architecture This article attempts to analyze Libra’s Move contract from the perspective of the evolution of smart contracts and its architectural design, that is, to answer the question “Why did Libra redesign a programming language? That is, to answer the question “Why did Libra redesign &#8230;<p class="read-more"> <a class="" href="https://liangpin.ca/westar-demo/the-evolution-of-smart-contracts-in-the-design-of-moves-architecture/"> <span class="screen-reader-text">The Evolution of smart Contracts in the Design of Move&#8217;s Architecture</span> Read More &#187;</a></p>]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="1054" class="elementor elementor-1054">
+									<section class="elementor-section elementor-top-section elementor-element elementor-element-7c42560 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7c42560" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-309cb82" data-id="309cb82" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-440c741 elementor-widget elementor-widget-heading" data-id="440c741" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.6.7 - 03-07-2022 */
+.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style><h1 class="elementor-heading-title elementor-size-default">The Evolution of Smart Contracts in the Design of Move’s Architecture
+</h1>		</div>
+				</div>
+				<div class="elementor-element elementor-element-7b15241 elementor-widget elementor-widget-text-editor" data-id="7b15241" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.6.7 - 03-07-2022 */
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#818a91;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#818a91;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				<p class="p1">This article attempts to analyze Libra’s Move contract from the perspective of the evolution of smart contracts and its architectural design, that is, to answer the question “Why did Libra redesign a programming language? That is, to answer the question “Why did Libra redesign a programming language?</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-8bfdcb8 elementor-widget elementor-widget-heading" data-id="8bfdcb8" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">What is a Smart Contract?
+</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-32da02e elementor-widget elementor-widget-text-editor" data-id="32da02e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">Before we start this topic, we can discuss a bigger topic, what exactly is a ‘smart contract’? In fact, the term ‘smart contract’ is very controversial in the industry, and everyone has his or her own opinion. For the sake of discussion, let’s give it a qualification in the context of the current topic.</p><ul class="ul1"><li class="li2">User-defined programs that run on a chain</li><li class="li1">Independent and binding without relying on the authority through repeated verification of chain nodes and consensus mechanism</li></ul><p class="p1">First of all, it is a program that runs on the chain and is customized by the user. If it is implemented directly on the chain, even though the mechanism of a plugin, we do not call it a smart contract here. Secondly, because of the chain’s repeated checks and the consensus capability, makes such programs are binding. This binding force does not come from your trust in a particular party, even the developer of the contract is bound by this binding mechanism.</p><p class="p1">As for the controversial points about “smart contracts”, I won’t discuss them in-depth here, but if you are interested, you can read my previous article on smart contracts from the perspective of “legal contracts” — <span style="color: #ff0000;"><a style="color: #ff0000;" href="https://jolestar.com/what-is-the-smart-contract/"><span class="s1">What is a smart contract?</span></a></span></p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-096d288 elementor-widget elementor-widget-heading" data-id="096d288" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Reviewing the evolution of smart contracts
+</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-8577aa5 elementor-widget elementor-widget-image" data-id="8577aa5" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.6.7 - 03-07-2022 */
+.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>												<img width="787" height="237" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/bitcoin-locking-unlocking-script.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/bitcoin-locking-unlocking-script.png 787w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/bitcoin-locking-unlocking-script-300x90.png 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/bitcoin-locking-unlocking-script-768x231.png 768w" sizes="(max-width: 787px) 100vw, 787px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-2fc947e elementor-widget elementor-widget-text-editor" data-id="2fc947e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1"><i>(Image source: Mastering Bitcoin 2nd)</i></p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-26b23c0 elementor-widget elementor-widget-text-editor" data-id="26b23c0" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">Bitcoin’s smart contracts are the Locking &amp; Unlocking Script that locks and unlocks assets. Simply put, Bitcoin provides a smart lock that users can assemble to lock or unlock assets according to their needs.</p><p class="p1">So why doesn’t it just define a way to lock and unlock, but make it very scriptable for users to customize? The main purpose is to provide logical extensibility to the chain so that users can add some features and do some experiments without changing the base code of the chain. At the same time it is stateless (Stateless), a lock only manages one asset, and no data can be shared between locks. It is also designed to be Turing Incompleteness to avoid users to write too complex locks to increase the cost of unlocking the chain.</p><p class="p1">Bitcoin itself defines a clear application scenario, whether it is understood as a cryptocurrency or a cryptographic asset, the main function is to preserve assets and transfer them. This design also meets the needs of its scenario. As long as the asset transfer contract can be expressed through locks and unlocks, it can be implemented with Bitcoin’s smart contracts. But not all contracts can be expressed through locks and unlocks? This remains to be proven. It is very challenging to design a set of protocols for locking and unlocking, such as the protocol for the Lightning Network. For more information on the different locking mechanisms on Bitcoin, see an interview with Lee and me — “<span style="color: #ff0000;"><a style="color: #ff0000;" href="https://jolestar.com/bitcoin-smart-contract/"><span class="s1">The Three Locks That Unlock Bitcoin Smart Contracts</span></a></span>”.</p><p class="p1">Bitcoin provides such a decentralized bookkeeping capability, that users will wonder if they can use it in other ways. For example, if a Hash of data is used as an address, and a small amount of assets is transferred to that address, the Hash address is publicized on the chain, providing proof of the existence of the data. But there is no way to spend this money because no one knows what the private key corresponding to this Hash address is. If there are more transactions like this, it will put a lot of pressure on Bitcoin’s chain, which has to maintain all the unspent transactions (UTXO).</p><p class="p2">So Bitcoin developers came up with a way to add a directive OP_RETURN. instead of disguising their data as an address, users can directly embed their data in a script and then add OP_RETURN so that the chain knows that the transaction will not be spent in the future, but simply record the data in the block. And with this mechanism in place, more and more third-party developers are trying to use Bitcoin’s network to issue another asset, which is often referred to as Colored Coins. The issuer only needs to run some nodes to access the Bitcoin network and verify the data in OP_RETURN, which is much cheaper than running a chain independently. Then, if the script can read and generate the state, is it possible that such verification nodes are not needed and can be directly delegated to the chain for verification? This gives birth to Ethereum.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-6c12b25 elementor-widget elementor-widget-heading" data-id="6c12b25" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Ethereum’s Smart Contracts
+</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-70c0b8f elementor-widget elementor-widget-text-editor" data-id="70c0b8f" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">Ethereum’s smart contracts are stateful and Turing-complete. For example, look at an example of a Coin given on the community’s official website (with simplifications) :</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-1319041 elementor-widget elementor-widget-image" data-id="1319041" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="503" height="558" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/solidity-coin.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/solidity-coin.png 503w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/solidity-coin-270x300.png 270w" sizes="(max-width: 503px) 100vw, 503px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-9cda1df elementor-widget elementor-widget-text-editor" data-id="9cda1df" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">In this example, the balance in the Coin contract is a map that holds a mapping of the user’s address and balance, and when transferring money, you can just decrease the sender’s balance and increase the receiver’s balance. Seems pretty simple, right? It looks like a stand-alone program that can be understood by anyone who knows a little programming language. But to provide this kind of capability, there are a number of challenges that need to be solved, and Ethereum’s solutions are important innovations in the blockchain smart contract space.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-384089a elementor-widget elementor-widget-heading" data-id="384089a" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Turing completeness and downtime issues
+</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-be268d9 elementor-widget elementor-widget-text-editor" data-id="be268d9" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">Since it is a Turing-complete language, it needs to solve the problem of downtime. If someone writes a dead-loop contract and puts it on the chain, then all nodes enter the dead loop. And according to the proof of the downtime problem, there is no way to determine whether it will enter a dead loop by analyzing the program directly, that is, there is no way to prevent users from deploying such a contract to the chain in advance. So Ethereum designed a gas mechanism, which requires a portion of the gas to be consumed when executing each instruction, and when the gas is consumed, the contract will fail to execute and exit. This is a very classic innovation.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-e2db47c elementor-widget elementor-widget-heading" data-id="e2db47c" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">State storage of contracts and consistency check of node states
+</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-1916139 elementor-widget elementor-widget-text-editor" data-id="1916139" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">The script in Bitcoin is stateless, its state is just UTXO, and each node maintains its own list of UTXOs. But Ethereum’s contracts are stateful (the data stored in the contract, such as each person’s balance in the previous example) and can be changed through transactions.</p><p class="p1">To solve this problem, Ethereum has designed a state tree:</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-be74446 elementor-widget elementor-widget-image" data-id="be74446" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="1024" height="711" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/ethereum-block-architecture-1024x711.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/ethereum-block-architecture-1024x711.png 1024w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/ethereum-block-architecture-300x208.png 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/ethereum-block-architecture-768x533.png 768w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/ethereum-block-architecture.png 1048w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-ab9d007 elementor-widget elementor-widget-text-editor" data-id="ab9d007" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1"><em><span class="s1">(Image source:<a href="https://ethereum.stackexchange.com/questions/268/ethereum-block-architecture"> <span class="s2">Ethereum StackExchange Ethereum-block-architecture</span></a>)</span></em></p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-f1a833a elementor-widget elementor-widget-text-editor" data-id="f1a833a" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">The whole idea is that each external storage variable in each contract is represented as a node in the state tree. All the variables in a contract generate a state tree, and the root node is the Storage Root, which in turn is mapped to the Global Storage Root by the contract address. Whenever any variable in any contract changes, the Global Storage Root changes, and the consistency of the data can be quickly verified by comparing the Global Storage Root between nodes. It also provides a state-proof capability that allows nodes to trust each other’s state data and quickly synchronize node states instead of computing them all over again through the block.</p><p class="p1"><i>The Merkle Patricia Tree is not described in detail here, but you can read Ethereum-related books or articles if you are interested.</i></p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-e369d32 elementor-widget elementor-widget-heading" data-id="e369d32" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Contract abstraction and cross-contract calls
+</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-9a96d17 elementor-widget elementor-widget-text-editor" data-id="9a96d17" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">Since Solidity which is provided by Ethereum, is a complete programming language, there is the issue of abstraction and inter-call, and Solidity is designed with Interfaces, similar to those in other programming languages. Developers can negotiate to define an Interface as a standard and then implement it individually. Interfaces can be called between contracts, and between contracts and clients (e.g. wallets).</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-15eab36 elementor-widget elementor-widget-image" data-id="15eab36" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="900" height="302" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/erc20.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/erc20.png 900w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/erc20-300x101.png 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/erc20-768x258.png 768w" sizes="(max-width: 900px) 100vw, 900px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-2f685b4 elementor-widget elementor-widget-text-editor" data-id="2f685b4" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">The ERC20 interface above, for example, defines standard methods for transferring funds, checking balances, and so on. The purpose of approval is to give a third party authorization to debit money from the user’s account, similar to the credit card pre-authorization mechanism. Community developers can propose an ERCxxx if they have a new idea, and others can further combine and innovate based on this ERCxxx. This mechanism is very flexible, and the thriving Defi ecosystem on Ethereum mainly relies on this mechanism to evolve.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-a5f743c elementor-widget elementor-widget-heading" data-id="a5f743c" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Problems with Ethereum
+</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-03c6c73 elementor-widget elementor-widget-text-editor" data-id="03c6c73" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">Of course, there is no perfect technology, and Ethereum offers some new capabilities, but also some new problems.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-a84528f elementor-widget elementor-widget-heading" data-id="a84528f" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Inconsistent abstraction and behavior between on-chain native assets (Ether) and assets defined by contract (ERC 20 Token)
+</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-c07290c elementor-widget elementor-widget-text-editor" data-id="c07290c" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">This is something that people who have written Ethereum contracts will know very well. If you have to write a contract that handles both Ether and other Tokens, you will find that the logic of the two is completely different and it is difficult to handle them in a uniform way. The security of Ether is guaranteed by the chain, while the security of Token depends on the developer of the Token. For example, in the layer2 scheme of Ethereum, it would be complicated to support both Ether and Token.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-5ef5804 elementor-widget elementor-widget-heading" data-id="5ef5804" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Security</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-a3648c1 elementor-widget elementor-widget-text-editor" data-id="a3648c1" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">Many security incidents have broken out on Ethereum, and while the immediate cause of many of the problems is a lack of rigor in the contract developer’s implementation, the essential cause comes from two things:</p><ul class="ul1"><li class="li1">The tension between scalability and determinism</li></ul><p class="p1">The Interface mechanism provides great extensibility, but Interface only defines the connection and does not guarantee that the implementation will follow the interface requirements. For example, here is an example of a spoof Token I once developed:</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-a9ac232 elementor-widget elementor-widget-image" data-id="a9ac232" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="481" height="261" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/foolcoin-transfer.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/foolcoin-transfer.png 481w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/foolcoin-transfer-300x163.png 300w" sizes="(max-width: 481px) 100vw, 481px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-b32c5c6 elementor-widget elementor-widget-text-editor" data-id="b32c5c6" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">The transfer method of this Token contains a random mechanism that has a certain probability of successful transfer, but also a certain probability of increasing its own Token. This behavior is hidden by the transfer of the Interface, so that the caller is not aware of its implementation, which may cause security problems.</p><p class="p1">Of course, one way is to directly implement a Token with a defined logic that does not allow users to customize the logic and only provides limited configuration items, such as total amount, name, etc. Some chains do this in order to solve the security problem of Ethereum. However, this does not allow users to scale according to their own scenarios, such as implementing a Token that is only available to a certain group of users, and there is no way to exhaust this scalability requirement, so users have to keep trying to evolve. This is the paradoxical dilemma between scalability and determinism.</p><ul class="ul1"><li class="li1">Inter-contract call issues</li></ul><p class="p1">The call between contracts on Ethereum is a dynamic call. It actually constructs an internal transaction and then starts a new virtual machine to execute the call. The mechanism I s a bit like a remote call between servers, and such calls can potentially form circular calls, resulting in a concurrency-like situation, even if the VM is executing in a single thread. For example, contract A calls contract B, which in turn calls back to contract A. The previous execution of contract A is then called. So the previous execution of contract A is not yet complete and the next execution is performed, while the second execution cannot read the intermediate state of the first execution. This is the vulnerability that the DAO attack exploited. The analysis of this problem can be found in the paper<span style="color: #ff0000;"><a style="color: #ff0000;" href="https://arxiv.org/pdf/1702.05511.pdf"> <span class="s1">A Concurrent Perspective on Smart Contract</span></a></span>.</p><ul class="ul1"><li class="li1">Contract Status Explosion</li></ul><p class="p1">The main reason for the explosion of contract state is that Ethereum, while designed with a gas fee mechanism, avoids users abusing the network. However, this gas is only for computation and is a one-time charge. Once data is written to the contract state, it is retained forever, and users do not have to bear the cost of the future storage of their data. This results in neither users nor developers having an incentive to clean up the useless state. At the same time, all user states of the same contract in Ethereum are under that contract account, and the data under popular contracts will swell even more.<span class="Apple-converted-space"> </span></p><p class="p1">Ethereum developers tried to implement a mechanism of state leasing, allowing users to pay state fees for their state, but all users’ states are stored under the contract account, and it is difficult for the chain to clarify the relationship between state and users, and it is impossible to distinguish between those that are public states of the contract and those that are specific users’ states, so the scheme is very complicated to design, and finally gave up and put this goal in Ethereum 2.0. Interested readers can see a version of the Ethereum state fees scheme.</p><p class="p1">Think about a few of the problems left over from Ethereum above, and how you would solve them if you were designing a solution. Later, we will analyze how Libra’s Move solves these problems.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-6fe7392 elementor-widget elementor-widget-heading" data-id="6fe7392" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Libra Move
+</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-cdf9302 elementor-widget elementor-widget-text-editor" data-id="cdf9302" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">These are a few characteristics of Move that I have summarized:</p><ul class="ul1"><li class="li2">First-class Resources</li><li class="li3">Abstract by data not behavior, No interface, No dynamic dispatch。</li><li class="li1">Use Data visibility &amp; Limited mutability to the protected resources, No inheritance.</li></ul><p class="p1">First-class Resources contain two layers of meaning. On Libra, all assets are contractually implemented, including LibraCoin, and all share a set of abstract logic and security mechanisms with equal status. The second layer is that the assets in Move are of a type defined by Resource and can be referenced directly in the data structure.</p><p class="p1">The second simple understanding is that it discards the interface mechanism. But without an interface, how do we define protocols and standards? Exactly how it is abstracted through the data, will be discussed later.</p><p class="p1">The third understanding states that since an asset is a data type and cannot be hidden inside a contract, by what means is it protected? For example, by preventing users from directly adding a new asset?</p><p class="p1">Before we understand how Move solves the above problem, let’s understand the basic concepts in Move.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-22e680f elementor-widget elementor-widget-heading" data-id="22e680f" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Basic concepts in Move</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-c172c22 elementor-widget elementor-widget-heading" data-id="c172c22" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Module, Resource | Struct, Function
+</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-47f780e elementor-widget elementor-widget-text-editor" data-id="47f780e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">Module is similar to modules in other languages, such as mod in Rust and Contract in Ethereum Solidity, in that it encapsulates a set of data structures and methods. Function is not very different from Function in other languages.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-9794821 elementor-widget elementor-widget-heading" data-id="9794821" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Copy, Move
+</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-d59ae43 elementor-widget elementor-widget-text-editor" data-id="d59ae43" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">This is a concept introduced by Move, borrowed from Rust’s lifecycle mechanism. All variables in Move need to be determined whether they are to be moved or copied when they are used, and once they are moved, they cannot be used again. Once a variable is moved, it cannot be used again. A Resource can only be moved but not copied, although the Reference of a Resource can be copied. This allows the compiler to track the transfer and change of assets in the same way as it tracks memory usage so that assets do not disappear or are created out of thin air.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-6f4518d elementor-widget elementor-widget-heading" data-id="6f4518d" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Builtin Methods
+</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-989e922 elementor-widget elementor-widget-text-editor" data-id="989e922" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">Move provides some built-in methods to interact with the state of the chain, and in Solidity, the developer hardly needs to care how the state of the contract is stored and persisted, almost transparent to the developer. In Libra, however, the developer has to explicitly call methods to get the state externally. This forces the developer to explicitly split the state under a specific account when writing the contract in order to implement the state leasing and elimination mechanism.</p><ul class="ul1"><li class="li1">borrow_global(address)/borrow_global_mut(address) Get a reference to a Resource of type T from the address account</li><li class="li1">move_from(address) moves Resource T out of the address account</li><li class="li2">move_to_sender() stores Resource T under the sender’s account of the transaction</li></ul><p class="p2">T in the above example must be the type defined by the current Module, and a Module cannot directly get the type defined by other Modules. Let’s understand the mechanism of Move by some concrete examples.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-099dd14 elementor-widget elementor-widget-heading" data-id="099dd14" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">An example of one
+</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-4a5833b elementor-widget elementor-widget-text-editor" data-id="4a5833b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">This example is the definition of LibraCoin.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-0513aa8 elementor-widget elementor-widget-image" data-id="0513aa8" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="400" height="686" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/libra-coin.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/libra-coin.png 400w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/libra-coin-175x300.png 175w" sizes="(max-width: 400px) 100vw, 400px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-937c0fb elementor-widget elementor-widget-text-editor" data-id="937c0fb" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">For example, the LibraCoin module above defines a resource type T, which represents a Coin and contains only a number inside, representing its value. In LibraAccount and HashTimeLock, LibraCoin.T is directly referenced as a field of its own type. The difference between Move and Solidity is that in Solidity, a Coin is a contract, and there is no data type for a Coin. So how does a Coin define its own behavior after this definition? How does the user use it? See the following example.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-f1d8fec elementor-widget elementor-widget-image" data-id="f1d8fec" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="573" height="750" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/libra-coin2.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/libra-coin2.png 573w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/libra-coin2-229x300.png 229w" sizes="(max-width: 573px) 100vw, 573px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-12fd929 elementor-widget elementor-widget-text-editor" data-id="12fd929" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">The LibraCoin module defines the most basic methods of LibraCoin. The deposit and withdrawal methods in LibraCoin are not specific to the account but are references to LibraCoin. In Move, the internal structure of a Resource is only visible to the module that defines it, and external modules can only treat a Resource as a whole, and cannot directly perform operations like splitting and joining.</p><p class="p1">How is the Coin defined in the contract issued? Since it is a type, how can we control the authority of Coin issuance?</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-4ed3940 elementor-widget elementor-widget-image" data-id="4ed3940" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="858" height="586" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/libra-coin3.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/libra-coin3.png 858w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/libra-coin3-300x205.png 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/libra-coin3-768x525.png 768w" sizes="(max-width: 858px) 100vw, 858px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-453ff84 elementor-widget elementor-widget-text-editor" data-id="453ff84" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">The above example has a mint method for minting coins, which actually ends up being a direct new LibraCoin. And this method has one parameter, capability, which represents a minting permission. And how is MintCapability generated? You can see the initialize method, which is created by a special account and held during the initialization of the creation block. As long as the account has MintCapability, it can be minted via the mint_with_default_capability method.</p><p class="p1">Let’s continue to see how LibraCoin can implement advanced transfers:</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-578f505 elementor-widget elementor-widget-image" data-id="578f505" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="1024" height="745" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/libra-account-1024x745.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/libra-account-1024x745.png 1024w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/libra-account-300x218.png 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/libra-account-768x559.png 768w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/libra-account-1536x1117.png 1536w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/libra-account.png 1996w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-aaa20b9 elementor-widget elementor-widget-text-editor" data-id="aaa20b9" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">LibraAccount calls LibraCoin’s methods to manipulate its own balance field, thus enabling transfers. LibraCoin itself does not care about the advanced transfer logic. This way, layer upon layer is combined to construct advanced functionality.</p><p class="p1">To continue, look at one implementation of HashTimeLock:</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-c40b739 elementor-widget elementor-widget-image" data-id="c40b739" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="948" height="1024" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/hash-time-lock-948x1024.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/hash-time-lock-948x1024.png 948w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/hash-time-lock-278x300.png 278w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/hash-time-lock-768x830.png 768w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/hash-time-lock-1421x1536.png 1421w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/hash-time-lock.png 1688w" sizes="(max-width: 948px) 100vw, 948px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-e04b1d3 elementor-widget elementor-widget-text-editor" data-id="e04b1d3" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">The lock method in the example encapsulates the asset in HashTimeLock.T and binds it to hash and time. unlock checks hash and time, and if correct, unlocks HashTimeLock.T and returns the encapsulated asset. The HashTimeLock contract does not care where the assets come from when locking and where the assets are stored after unlocking but can be defined by other contracts or written directly in the main script of the transaction, e.g:</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-b04f831 elementor-widget elementor-widget-image" data-id="b04f831" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="627" height="607" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/hash-time-lock-script.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/hash-time-lock-script.png 627w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/hash-time-lock-script-300x290.png 300w" sizes="(max-width: 627px) 100vw, 627px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-a1c7c04 elementor-widget elementor-widget-text-editor" data-id="a1c7c04" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">In this script, assets are taken out of LibraAccount and later charged back to LibraAccount. This can be defined by each transaction itself.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-197d1c6 elementor-widget elementor-widget-heading" data-id="197d1c6" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Interface is not supported: How to define standards
+</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-e6c0173 elementor-widget elementor-widget-text-editor" data-id="e6c0173" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">The previous example shows how Move assembles advanced functionality through assembly and visibility mechanisms, ensuring sufficient scaling without providing a mechanism for dynamic distribution. But how do you define a standard like ERC20 in Ethereum without a mechanism like Interface? How do you define the upper layer of the Defi protocol when different Token implementations are different?</p><p class="p1">Once I talked to the developer of Move about this issue, and I was impressed by what he said.</p><p class="p2">“When code is law, interfaces are a crime.” — tnowacki</p><p class="p1">In a world where code is law, an interface is a crime. This is because interfaces only define behavior, but do not care about the implementation. And when coding assets, users prefer that the operations associated with the assets themselves are deterministic.</p><p class="p1">He gives the example of a Token:</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-a11638b elementor-widget elementor-widget-image" data-id="a11638b" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="1024" height="692" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/token-1024x692.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/token-1024x692.png 1024w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/token-300x203.png 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/token-768x519.png 768w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/token-1536x1038.png 1536w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/token.png 1986w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-5fa66c8 elementor-widget elementor-widget-text-editor" data-id="5fa66c8" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">This example defines a Coin with a label through a generic type, and anyone can define a new Coin based on this Coin. the basic operations of the Coin are deterministic, but the issuer of the Coin can continue to encapsulate it at the upper level, deriving different characteristics. Such a mechanism ensures both deterministic behavior and sufficient scalability.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-9e907bd elementor-widget elementor-widget-image" data-id="9e907bd" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="1024" height="393" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/move-vs-solidity-1024x393.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/move-vs-solidity-1024x393.png 1024w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/move-vs-solidity-300x115.png 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/move-vs-solidity-768x295.png 768w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/move-vs-solidity-1536x589.png 1536w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/move-vs-solidity.png 1824w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-bfcfe73 elementor-widget elementor-widget-text-editor" data-id="bfcfe73" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">To use an analogy, the Token implementation in Solidity is similar to recording a ledger, while Move is similar to encapsulating an asset. When you go to rent something and pay a deposit, you will encounter two kinds of salesmen. The first type of salesperson aggregates the money together and records it in the ledger. The second type of salesperson then puts the money in a binder and keeps a name. When the first kind returns the money, the salesman needs to amend the ledger and then divide the deposit from the summed-up money and give it to the customer. The latter type, on the other hand, directly finds the corresponding deposit clip and gives it directly to the customer. The former kind is like Solidity, and the latter kind is like Move. the advantage of boxes is that you can box over boxes, it is easy to combine more complex boxes, and the books to combine can only be achieved by cross-referencing records between books.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-569f4c6 elementor-widget elementor-widget-heading" data-id="569f4c6" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Move’s state storage
+</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-d76e23b elementor-widget elementor-widget-text-editor" data-id="d76e23b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">The previous section describes the features of the Move language itself, and the contract programming language and its state storage mechanism are inextricably linked, so let’s explore Libra’s improvements in the state storage mechanism.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-057c3d5 elementor-widget elementor-widget-image" data-id="057c3d5" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="718" height="124" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/libra-global-state.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/libra-global-state.png 718w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/libra-global-state-300x52.png 300w" sizes="(max-width: 718px) 100vw, 718px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-ebcf564 elementor-widget elementor-widget-text-editor" data-id="ebcf564" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">The above formula illustrates what data belongs to Libra’s GlobalState, the mapping between all accounts and account states. The key difference between this and Ethereum is that all of the states for each user is in their account path, rather than scattered across contracts.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-2682cc1 elementor-widget elementor-widget-image" data-id="2682cc1" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="956" height="424" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/libra-global-state2.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/libra-global-state2.png 956w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/libra-global-state2-300x133.png 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/libra-global-state2-768x341.png 768w" sizes="(max-width: 956px) 100vw, 956px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-c4ed3c4 elementor-widget elementor-widget-text-editor" data-id="c4ed3c4" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1"><i>(Image source libra white paper)</i></p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-39c7e36 elementor-widget elementor-widget-text-editor" data-id="39c7e36" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">The Sparse Merkle Tree in the figure above is equivalent to the Merkle Patricia Tree in Ethereum, which serves the same purpose, except for the difference in algorithm implementation. The Merkle Tree Accumulator is a new addition to Libra, where each block in Ethereum generates the root of a global state tree that is packed in the block header. In Libra, each transaction generates a root of the state tree, and then associates these roots with transaction information, and then accumulates them with an accumulator to generate a root of the accumulator, which is included in the block header. This accumulator is global and not for a particular block.</p><p class="p1">You can start by looking at the implementation of its accumulator (Accumulator):</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-8aeff26 elementor-widget elementor-widget-image" data-id="8aeff26" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="1024" height="749" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/merkle-tree-accumulator-1024x749.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/merkle-tree-accumulator-1024x749.png 1024w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/merkle-tree-accumulator-300x219.png 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/merkle-tree-accumulator-768x562.png 768w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/merkle-tree-accumulator-1536x1124.png 1536w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/merkle-tree-accumulator.png 1848w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-9440a06 elementor-widget elementor-widget-text-editor" data-id="9440a06" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">Accumulators, as the name implies, actually add up data to form a result, but also provide proof that the result contains a certain data. There are purely cryptographic implementations of accumulators (e.g., RSA Accumulator), but the computational efficiency is still difficult to meet the requirements of the application and the security proof is also difficult, so it is a more realistic approach to implement an accumulator through a Merkle tree.</p><p class="p1">The Merkle tree itself is a binary tree, if the leaf nodes are determined, the height of the tree is also determined, and it is easier to calculate the value of the root node. However, the leaf nodes of the accumulator have to grow dynamically, and the height of the tree is also growing dynamically. As shown above, the two subtrees on the left are already frozen, the values of their leaf nodes are no longer useful for the later calculation, and only the frozen root nodes are needed for the calculation. This algorithm has been discussed in the industry for quite some time, such as the Merkle Mountain Ranges algorithm discussed by the Bitcoin community. Due to space limitations, we will not analyze its algorithm here. The biggest role of this global accumulator is to provide global proof of the existence of the transaction execution; to prove that a transaction occurred on Ethereum and Bitcoin, one has to prove that the transaction was packed in a block and then prove that the block is actually on the chain.</p><p class="p1">Let’s take a look at its Sparse Merkle tree implementation:</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-b2305a5 elementor-widget elementor-widget-image" data-id="b2305a5" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="960" height="499" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/sparse-merkle-tree.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/sparse-merkle-tree.png 960w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/sparse-merkle-tree-300x156.png 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/sparse-merkle-tree-768x399.png 768w" sizes="(max-width: 960px) 100vw, 960px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-f1e096e elementor-widget elementor-widget-text-editor" data-id="f1e096e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1"><em>(Image source libra white paper)</em></p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-da53f43 elementor-widget elementor-widget-text-editor" data-id="da53f43" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">Ethereum uses Merkle Tree to store state and provide state proofs. The first problem it encountered was that the height of Merkle Tree was too high, which made it expensive to compute and store, and generated large proofs. So it made an optimization, which is equivalent to turning a binary tree into a sixteen-fold tree. Libra has a similar idea, which is also to compress the paths. For example, 1 in the above figure is a complete binary tree, 2 optimizes the empty subtree, and 3 optimizes the middle node to shorten the path without divergence. It can be said to be similar to Ethereum’s Merkle Patricia Tree, but a unique advantage of the Sparse Merkle tree is that it can provide a proof of nonexistence. A more detailed analysis of the algorithm implementation can be found in<span style="color: #ff0000;"><a style="color: #ff0000;" href="http://twitter.com/lerencao"> <span class="s1">@lerencao</span></a></span>’s article<span style="color: #ff0000;"><a style="color: #ff0000;" href="https://westar.io/blog/jellyfish-merkle-tree-in-libra/"> <span class="s1">Jellyfish Merkle Tree in Libra Blockchain</span></a></span><span class="s2"><span class="Apple-converted-space">.</span></span></p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-3e35673 elementor-widget elementor-widget-heading" data-id="3e35673" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Status of Move
+</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-191c3ea elementor-widget elementor-widget-text-editor" data-id="191c3ea" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">Finally, a brief note on the status of Move:</p><ul class="ul1"><li class="li2">The above examples are partly Move IR (intermediate language) and partly Move source lang. Move source lang is the programming language for final developers, but it is not yet officially used in Libra, which still uses IR.</li><li class="li2">Generic support is not yet finalized, and some of the examples above do not yet run directly.</li><li class="li2">The Account state is now packaged into one big binary, not yet split into a two-level tree-like Ethereum.</li><li class="li2">Incomplete support for set types, such as support for Map, etc.</li><li class="li1">The space leasing mechanism is only theoretically designed and has not yet been realized.</li></ul>						</div>
+				</div>
+				<div class="elementor-element elementor-element-080ea84 elementor-widget elementor-widget-heading" data-id="080ea84" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Summary
+</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-e30045b elementor-widget elementor-widget-text-editor" data-id="e30045b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">To summarize the main improvements and implications of Move and Libra:</p><ul class="ul1"><li class="li2">FirstClass Resource, which allows assets to be not only programmable but also mapped to types in programs, provides a new model of programming</li><li class="li2">All states of the same user are under the user path. This makes it technically possible to lease state space and to phase out user states. (Note: After a user state is eliminated, it can be stored back again by paying for it).</li><li class="li1">Improvements and optimizations in the state storage mechanism, associating a global state to each transaction, can provide global proof of the transaction.</li></ul><p class="p1">Libra’s design also has potential for layer2 mechanisms, mainly due to<span class="Apple-converted-space"> </span></p><ol class="ol1"><li class="li2">its unified asset programming model, which makes it easier to design generic layer2 schemes.<span class="Apple-converted-space"> </span></li><li class="li2">the splitting of user state, which facilitates state migration between upstream and downstream chains</li><li class="li1">the global proof mechanism, which facilitates layer2 arbitration.<span class="Apple-converted-space"> </span></li></ol><p class="p1">I will discuss how to use these features to design a layer2 scheme in a future article.</p><p class="p1">Finally, to answer the opening question, the above innovations are indeed enough to support Move as a new programming language. The development of technology is to continuously introduce innovations to solve legacy problems, but at the same time bring new problems, and then trigger new innovations to advance in waves.</p>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+							</div>
+		]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Starcoin eco-benefits: cross-chain guide to fast-track ethereum learning</title>
+		<link>https://liangpin.ca/westar-demo/starcoin-eco-benefits-cross-chain-guide-to-fast-track-ethereum-learning/</link>
+		
+		<dc:creator><![CDATA[westar-demo]]></dc:creator>
+		<pubDate>Wed, 27 Jul 2022 20:27:58 +0000</pubDate>
+				<category><![CDATA[Blog StarCoin]]></category>
+		<category><![CDATA[blockchain]]></category>
+		<category><![CDATA[blog]]></category>
+		<category><![CDATA[cross chain]]></category>
+		<category><![CDATA[ecological upgrade]]></category>
+		<category><![CDATA[Ethereum]]></category>
+		<category><![CDATA[ethereum learning]]></category>
+		<category><![CDATA[fast track]]></category>
+		<category><![CDATA[MetaMask wallet]]></category>
+		<category><![CDATA[Poly network]]></category>
+		<category><![CDATA[starcoin]]></category>
+		<category><![CDATA[starmask extension]]></category>
+		<category><![CDATA[StarMask Wallet]]></category>
+		<guid isPermaLink="false">https://liangpin.ca/westar-demo/?p=1024</guid>
+
+					<description><![CDATA[Starcoin Eco-benefits: Cross-Chain Guide to Fast-Track Ethereum Learning In Web3’s grand voyage era, public chains empower data decentralization, and cross-chains break data silos. Therefore, cross-chain is one of the essential basic components of every public chain ecology and an important dimension to measure the maturity of a public chain ecology. Starcoin ecology will soon launch &#8230;<p class="read-more"> <a class="" href="https://liangpin.ca/westar-demo/starcoin-eco-benefits-cross-chain-guide-to-fast-track-ethereum-learning/"> <span class="screen-reader-text">Starcoin eco-benefits: cross-chain guide to fast-track ethereum learning</span> Read More &#187;</a></p>]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="1024" class="elementor elementor-1024">
+									<section class="elementor-section elementor-top-section elementor-element elementor-element-d3b8529 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d3b8529" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3ab1b4e" data-id="3ab1b4e" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-63cacd1 elementor-widget elementor-widget-heading" data-id="63cacd1" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h1 class="elementor-heading-title elementor-size-default">Starcoin Eco-benefits: Cross-Chain Guide to Fast-Track Ethereum Learning
+</h1>		</div>
+				</div>
+				<div class="elementor-element elementor-element-3bc07ac elementor-widget elementor-widget-text-editor" data-id="3bc07ac" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>In Web3’s grand voyage era, public chains empower data decentralization, and cross-chains break data silos. Therefore, cross-chain is one of the essential basic components of every public chain ecology and an important dimension to measure the maturity of a public chain ecology. Starcoin ecology will soon launch the first decentralized Poly cross-chain bridge to achieve interoperability with Ethereum. This is a milestone that marks the maturity of the Starcoin ecosystem and the first interoperability between the Move ecosystem and Solidity ecosystem.</p><p>With the benefits of the cross-chain bridge, let’s take a quick look at how cross-chain is achieved between Starcoin and Ethereum, using USDT as an example.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-ac3b326 elementor-widget elementor-widget-heading" data-id="ac3b326" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Preparation Stage</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-8bc743f elementor-widget elementor-widget-text-editor" data-id="8bc743f" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Cross-chaining USDT from Ethereum to Starcoin using Poly Network requires the use of two public chain wallets, MetaMask and StarMask.</p><p>1. MetaMask Wallet</p><p>Download MetaMask wallet, create an account or import an account, and transfer USDT to the account. For MetaMask download and installation tutorial, please refer to <a href="https://metamask.io/"><span style="color: #ff0000;">MetaMask official website</span></a>.</p><p>2. StarMask Wallet</p><p>You will need to know about <a href="https://chrome.google.com/webstore/detail/starmask/mfhbebgoclkghebffdldpobeajmbecfk?hl=en"><span style="color: #ff0000;">StarMask</span></a>, the official Chrome browser plug-in wallet provided by Starcoin.</p><p>StarMask is available for download at <a href="https://chrome.google.com/webstore/detail/starmask/mfhbebgoclkghebffdldpobeajmbecfk">https://chrome.google.com/webstore/detail/starmask/mfhbebgoclkghebffdldpobeajmbecfk</a></p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-fd6b4b3 elementor-widget elementor-widget-heading" data-id="fd6b4b3" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Tutorials</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-5ed1eba elementor-widget elementor-widget-text-editor" data-id="5ed1eba" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><a href="https://github.com/starcoinorg/starmask-extension/blob/main/docs/en/how-to-install.md"><span style="color: #ff0000;">Installation tutorial (EN).</span></a></p><p><a href="https://github.com/starcoinorg/starmask-extension/blob/main/docs/zh/how-to-install.md"><span style="color: #ff0000;">Installation tutorial (ZH).</span></a></p><p><a href="https://github.com/starcoinorg/starmask-extension/blob/main/docs/en/how-to-use.md"><span style="color: #ff0000;">Tutorials for use (EN).</span></a></p><p><a href="https://github.com/starcoinorg/starmask-extension/blob/main/docs/zh/how-to-use.md"><span style="color: #ff0000;">Tutorials for use (ZH).</span></a></p><p><a href="https://www.youtube.com/watch?v=Y0b51VH_bkU&amp;ab_channel=StarcoinBlockChain"><span style="color: #ff0000;">Video Tutorial (EN).</span></a></p><p class="p1"><a href="https://www.youtube.com/watch?v=vNPuM7A714c&amp;ab_channel=StarcoinBlockChain"><span style="color: #ff0000;">Video Tutorial (ZH).</span></a></p><p class="p1">After installing StarMask, please familiarize yourself with StarMask’s operation guide. After understanding MetaMask and StarMask, the prep work is done.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-43cabd1 elementor-widget elementor-widget-heading" data-id="43cabd1" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Cross-Chain Guide
+</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-95a554a elementor-widget elementor-widget-text-editor" data-id="95a554a" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">After installing StarMask and MetaMask wallets and preparing USDT, the preparations are ready.</p><p class="p1">Next, we have to cross-chain.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-b74a060 elementor-widget elementor-widget-heading" data-id="b74a060" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">1. Go to the official website</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-676a0b8 elementor-widget elementor-widget-text-editor" data-id="676a0b8" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">First, go to the official website of Poly Network Cross-Link Bridge at <span class="s1"><span style="color: #ff0000;"><a style="color: #ff0000;" href="https://bridge.poly.network/"><span class="s2">Main Network</span></a></span></span>.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-eb9b481 elementor-widget elementor-widget-heading" data-id="eb9b481" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">2.Connect Wallet</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-4a069a8 elementor-widget elementor-widget-text-editor" data-id="4a069a8" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">Connecting to a wallet.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-3113d61 elementor-widget elementor-widget-image" data-id="3113d61" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="936" height="548" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/corss-chain1.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/corss-chain1.jpg 936w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/corss-chain1-300x176.jpg 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/corss-chain1-768x450.jpg 768w" sizes="(max-width: 936px) 100vw, 936px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-e448120 elementor-widget elementor-widget-text-editor" data-id="e448120" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">Select Ethereum and MetaMask.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-6a9bac7 elementor-widget elementor-widget-image" data-id="6a9bac7" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="936" height="210" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain2.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain2.jpg 936w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain2-300x67.jpg 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain2-768x172.jpg 768w" sizes="(max-width: 936px) 100vw, 936px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-576cd11 elementor-widget elementor-widget-text-editor" data-id="576cd11" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">Select Starcoin and StarMask.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-828efdd elementor-widget elementor-widget-heading" data-id="828efdd" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">3. Selecting Assets Across Chains</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-1d345e1 elementor-widget elementor-widget-text-editor" data-id="1d345e1" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">SelectTokenAsset， Then select the assets that need to be cross-chained.</p><p class="p2">The asset we have chosen here to cross-chain assets is USDT.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-40cf638 elementor-widget elementor-widget-heading" data-id="40cf638" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">4. Select cross-chain direction</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-571b5d4 elementor-widget elementor-widget-text-editor" data-id="571b5d4" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">Starcoin and Ethereum are two-way interoperable, users can either freely cross-chain from Starcoin to Ethereum or choose to freely cross-chain from Ethereum to Starcoin. here is an example of Ethereum cross-eUSDT to Starcoin. As shown in the figure.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-01118a1 elementor-widget elementor-widget-image" data-id="01118a1" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="936" height="548" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain3.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain3.jpg 936w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain3-300x176.jpg 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain3-768x450.jpg 768w" sizes="(max-width: 936px) 100vw, 936px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-f70d591 elementor-widget elementor-widget-text-editor" data-id="f70d591" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">Set the source chain From:</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-7ad73f3 elementor-widget elementor-widget-image" data-id="7ad73f3" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="936" height="380" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/corss-chain4.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/corss-chain4.jpg 936w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/corss-chain4-300x122.jpg 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/corss-chain4-768x312.jpg 768w" sizes="(max-width: 936px) 100vw, 936px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-a9116e4 elementor-widget elementor-widget-text-editor" data-id="a9116e4" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">After successful setup, you should be able to see the following screen:</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-98f7329 elementor-widget elementor-widget-image" data-id="98f7329" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="936" height="594" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain5.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain5.jpg 936w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain5-300x190.jpg 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain5-768x487.jpg 768w" sizes="(max-width: 936px) 100vw, 936px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-1a5e645 elementor-widget elementor-widget-text-editor" data-id="1a5e645" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">Set the target chain to:</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-710f781 elementor-widget elementor-widget-image" data-id="710f781" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="936" height="282" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/corss-chain6.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/corss-chain6.jpg 936w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/corss-chain6-300x90.jpg 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/corss-chain6-768x231.jpg 768w" sizes="(max-width: 936px) 100vw, 936px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-3993815 elementor-widget elementor-widget-text-editor" data-id="3993815" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">After a successful setup of the previous step, you should be able to see the following screen:</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-56c2d5a elementor-widget elementor-widget-image" data-id="56c2d5a" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="936" height="702" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/corss-chain7.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/corss-chain7.jpg 936w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/corss-chain7-300x225.jpg 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/corss-chain7-768x576.jpg 768w" sizes="(max-width: 936px) 100vw, 936px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-87e5e23 elementor-widget elementor-widget-heading" data-id="87e5e23" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">5. Set the amount of money allowed to be transferred
+</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-e5a5f66 elementor-widget elementor-widget-text-editor" data-id="e5a5f66" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">Once the previous settings are set, enter the amount you want to cross-chain, either by clicking MAXto cross-chain all the USDT in your MetaMask wallet, or by directly entering the amount you want to cross-chain.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-dbb8068 elementor-widget elementor-widget-image" data-id="dbb8068" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="936" height="720" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain8.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain8.jpg 936w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain8-300x231.jpg 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain8-768x591.jpg 768w" sizes="(max-width: 936px) 100vw, 936px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-90d6b02 elementor-widget elementor-widget-text-editor" data-id="90d6b02" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">Then click the APPROVE button to invoke the MetaMask wallet, sign and submit the transaction:</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-ef2fb39 elementor-widget elementor-widget-image" data-id="ef2fb39" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="936" height="698" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain9.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain9.jpg 936w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain9-300x224.jpg 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain9-768x573.jpg 768w" sizes="(max-width: 936px) 100vw, 936px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-2a2c902 elementor-widget elementor-widget-text-editor" data-id="2a2c902" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">The following diagram shows the status of a transaction in processing:</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-1070094 elementor-widget elementor-widget-image" data-id="1070094" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="936" height="700" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain10.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain10.jpg 936w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain10-300x224.jpg 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain10-768x574.jpg 768w" sizes="(max-width: 936px) 100vw, 936px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-f763983 elementor-widget elementor-widget-text-editor" data-id="f763983" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">Note that Aprove is a step that needs to be performed when crossing out ERC20 protocol tokens from Ether, which does not exist when crossing out ETH from Ether.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-9e2d9b3 elementor-widget elementor-widget-heading" data-id="9e2d9b3" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">6. Initiate cross-chain
+</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-bf209a6 elementor-widget elementor-widget-text-editor" data-id="bf209a6" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">After the previous step is completed, you will enter the following page, click NEXT, and here you will really enter the process of the cross-chain transaction.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-925218d elementor-widget elementor-widget-image" data-id="925218d" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="936" height="698" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain11.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain11.jpg 936w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain11-300x224.jpg 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain11-768x573.jpg 768w" sizes="(max-width: 936px) 100vw, 936px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-25aa23e elementor-widget elementor-widget-text-editor" data-id="25aa23e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">Going to the confirmation page of the transaction details, 10 USDT will be cross-chained from Ether to Starcoin:</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-78f880f elementor-widget elementor-widget-image" data-id="78f880f" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="744" height="1024" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain-12-744x1024.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain-12-744x1024.jpg 744w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain-12-218x300.jpg 218w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain-12-768x1057.jpg 768w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain-12.jpg 850w" sizes="(max-width: 744px) 100vw, 744px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-b5e3c2e elementor-widget elementor-widget-text-editor" data-id="b5e3c2e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">Click on the CONFIRM button to evoke MetaMask, sign and initiate a real cross-chain transaction:</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-08dbb13 elementor-widget elementor-widget-image" data-id="08dbb13" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="936" height="852" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain-13.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain-13.jpg 936w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain-13-300x273.jpg 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain-13-768x699.jpg 768w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain-13-396x360.jpg 396w" sizes="(max-width: 936px) 100vw, 936px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-afaed31 elementor-widget elementor-widget-text-editor" data-id="afaed31" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">Transactions wait in the transaction pool to be packaged, depending on the network congestion.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-7b44f40 elementor-widget elementor-widget-image" data-id="7b44f40" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="936" height="934" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain-14.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain-14.jpg 936w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain-14-300x300.jpg 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain-14-150x150.jpg 150w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain-14-768x766.jpg 768w" sizes="(max-width: 936px) 100vw, 936px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-8c9e92c elementor-widget elementor-widget-text-editor" data-id="8c9e92c" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">The status of transactions can also be viewed via MetaMask at:</p><p class="p1">After the transaction is packed into the block, it will jump to the block confirmation page as shown in the figure and wait for the transaction to enter the finality (security) state, which normally takes 6–10 minutes for the whole process. As you can see from the block confirmation page, the transaction goes through 3 chains: Ethereum: the source chain, Poly: the relay chain, and Starcoin: the target chain.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-85cf7e5 elementor-widget elementor-widget-image" data-id="85cf7e5" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="668" height="1024" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain-15-668x1024.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain-15-668x1024.jpg 668w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain-15-196x300.jpg 196w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain-15-768x1177.jpg 768w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain-15.jpg 846w" sizes="(max-width: 668px) 100vw, 668px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-e79d199 elementor-widget elementor-widget-text-editor" data-id="e79d199" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">As shown in the figure, this is what happens when the transaction finally succeeds in the Finished state on the test network:</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-acafea6 elementor-widget elementor-widget-image" data-id="acafea6" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="635" height="1024" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain-16-635x1024.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain-16-635x1024.jpg 635w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain-16-186x300.jpg 186w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain-16-768x1238.jpg 768w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain-16.jpg 804w" sizes="(max-width: 635px) 100vw, 635px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-6279fa6 elementor-widget elementor-widget-text-editor" data-id="6279fa6" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">Click on the Goto History hyperlink above to view the details of the transaction as shown in the image.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-5dd0f9d elementor-widget elementor-widget-heading" data-id="5dd0f9d" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">7. Confirm cross-link success
+</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-2fee911 elementor-widget elementor-widget-text-editor" data-id="2fee911" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">Let’s check the two wallets of Ethereum and Starcoin separately to check if the cross-chain is successful.</p><p class="p2">You can check Starcoin’s account balance, as shown in the graph, the balance of XUSDT should have increased (10 XUSDT)：</p><p class="p1">Looking at Ethereum’s account balance, the USDT balance should have decreased (10 USDT). This confirms the success of the cross-chain.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-d27e3dc elementor-widget elementor-widget-heading" data-id="d27e3dc" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Starcoin completes ecological upgrade and enters the application explosion period
+</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-5d93003 elementor-widget elementor-widget-text-editor" data-id="5d93003" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="p1">The previous step-by-step analysis shows how to cross-chain from Ethereum to Starcoin and easily cross-chain Tokens from Ethereum to Starcoin.</p><p class="p1">Starcoin has developed a series of standard protocols, such as NFT protocol, and Oracle protocol, by leveraging Move’s native advantages. On top of this, Starcoin ecology has spread out in several tracks, such as Swap, NFT, Stablecoin, Gaming, etc., to take the lead in achieving breakthroughs. starcoin ecology has taken shape.</p><p class="p1">With the landing of Bridge, Starcoin has realized the initial layout of infrastructure, completed the upgrade of ecology, and is about to transform into the stage of ecological application explosion and reach the scale effect.</p>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+							</div>
+		]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Jellyfish Merkle Tree in Libra Blockchain</title>
+		<link>https://liangpin.ca/westar-demo/jellyfish-merkle-tree-in-libra-blockchain/</link>
+		
+		<dc:creator><![CDATA[westar-demo]]></dc:creator>
+		<pubDate>Wed, 27 Jul 2022 18:51:36 +0000</pubDate>
+				<category><![CDATA[Blog StarCoin]]></category>
+		<category><![CDATA[blockchain]]></category>
+		<category><![CDATA[blog]]></category>
+		<category><![CDATA[common prefix]]></category>
+		<category><![CDATA[data flow]]></category>
+		<category><![CDATA[Jelleyfish markle tree]]></category>
+		<category><![CDATA[JMT]]></category>
+		<category><![CDATA[libra]]></category>
+		<category><![CDATA[MPT]]></category>
+		<category><![CDATA[Node::Null]]></category>
+		<category><![CDATA[physical addressing]]></category>
+		<category><![CDATA[pointer generation]]></category>
+		<category><![CDATA[pointer nodekey]]></category>
+		<category><![CDATA[starcoin]]></category>
+		<category><![CDATA[state storage]]></category>
+		<guid isPermaLink="false">https://liangpin.ca/westar-demo/?p=994</guid>
+
+					<description><![CDATA[Jellyfish Merkle Tree in Libra Blockchain This article introduces the Jellyfish Merkle Tree (JMT), a data structure used to store blockchain state data in Libra. The article firstly outlines the role and function of JMT in Libra and its main features; then focuses on its interface and internal implementation; finally, it compares it with Ether’s &#8230;<p class="read-more"> <a class="" href="https://liangpin.ca/westar-demo/jellyfish-merkle-tree-in-libra-blockchain/"> <span class="screen-reader-text">Jellyfish Merkle Tree in Libra Blockchain</span> Read More &#187;</a></p>]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="994" class="elementor elementor-994">
+									<section class="elementor-section elementor-top-section elementor-element elementor-element-16e0dd2 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="16e0dd2" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-e30b2ff" data-id="e30b2ff" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-4687196 elementor-widget elementor-widget-heading" data-id="4687196" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h1 class="elementor-heading-title elementor-size-default">Jellyfish Merkle Tree in Libra Blockchain</h1>		</div>
+				</div>
+				<div class="elementor-element elementor-element-fdff86b elementor-widget elementor-widget-text-editor" data-id="fdff86b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>This article introduces the Jellyfish Merkle Tree (JMT), a data structure used to store blockchain state data in Libra. The article firstly outlines the role and function of JMT in Libra and its main features; then focuses on its interface and internal implementation; finally, it compares it with Ether’s MPT tree and talks about its advantages and disadvantages.</p><p>Libra is similar to Ethernet in design, both belong to the account model, but unlike Ethernet, which stores contract data in a separate contract account, Libra abstracts contract data into Resource and stores it directly under the account (contract code Module is also stored directly into the account, code is data, both have the same status in Libra storage). The two have the same status in Libra storage). When a user uses a contract, the data generated by the contract is placed under the user’s account. The Jellyfish Merkle Tree is used to store these (account_address, resources/modules), which is important to see. But Libra uses a consensus of PBFT (with plans to move to a PoS-like consensus), and there is no such thing as a forked rollback. So the JMT implementation, somewhat different from the Ether Merkle Patricia Tree1 , does not need to consider forks.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-d3f4675 elementor-widget elementor-widget-alert" data-id="d3f4675" data-element_type="widget" data-widget_type="alert.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.6.7 - 03-07-2022 */
+.elementor-alert{padding:15px;border-left:5px solid transparent;position:relative;text-align:left}.elementor-alert .elementor-alert-title{display:block;font-weight:700}.elementor-alert .elementor-alert-description{font-size:13px}.elementor-alert button.elementor-alert-dismiss{position:absolute;right:10px;top:10px;padding:3px;font-size:20px;line-height:1;background:transparent;color:inherit;border:none;cursor:pointer}.elementor-alert.elementor-alert-info{color:#31708f;background-color:#d9edf7;border-color:#bcdff1}.elementor-alert.elementor-alert-success{color:#3c763d;background-color:#dff0d8;border-color:#cae6be}.elementor-alert.elementor-alert-warning{color:#8a6d3b;background-color:#fcf8e3;border-color:#f9f0c3}.elementor-alert.elementor-alert-danger{color:#a94442;background-color:#f2dede;border-color:#e8c4c4}@media (max-width:767px){.elementor-alert{padding:10px}.elementor-alert button.elementor-alert-dismiss{right:7px;top:7px}}</style>		<div class="elementor-alert elementor-alert-info" role="alert">
+			<span class="elementor-alert-title">Note:</span>
+							<span class="elementor-alert-description">In the following, readers are required to have some understanding of the Ether MPT tree, and are advised to read the related information after the following to better understand JMT.</span>
+								</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-2ff5009 elementor-widget elementor-widget-text-editor" data-id="2ff5009" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>In MPT2, the query and insertion of kv pairs start with the root_hash: H256 of a world state as the entry point of the whole tree, and the insertion of kv pairs generates a new state_root_hash, forming an incremental iterative process. With the root_hash, the upper caller can easily do a rollback operation by simply rewriting a new kv pair from one of the historical states to complete the fork.</p><p>Libra was initially designed without the concept of a block, only a transaction, or each transaction is a block in the logical sense. the version here indicates the number of transactions that have been executed on the world state, initially 0. The version represents the number of transactions that have been executed on the world state, initially 0, and the version is increased by 1 for each additional txn.</p><p>This approach is not feasible in a forkable Etherchain. Because when each forked chain forks, the state of the world after executing the same version of txn is different, otherwise it is not a forked chain.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-89dc11e elementor-widget elementor-widget-image" data-id="89dc11e" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="1024" height="185" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/jellyfish-merkle-tree-1024x185.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/jellyfish-merkle-tree-1024x185.png 1024w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/jellyfish-merkle-tree-300x54.png 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/jellyfish-merkle-tree-768x139.png 768w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/jellyfish-merkle-tree-1536x278.png 1536w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/jellyfish-merkle-tree-2048x371.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-b4863c0 elementor-widget elementor-widget-text-editor" data-id="b4863c0" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>This is one of the main features that distinguish JMT from MPT, but of course the internal implementation has also been simplified, so let’s focus on its interface and implementation.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-df53648 elementor-widget elementor-widget-heading" data-id="df53648" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">JMT Implementation</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-a79d339 elementor-widget elementor-widget-text-editor" data-id="a79d339" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>JMT provides a relatively simple interface to the outside, a write interface, a read interface, here the main focus on the write interface (read interface is relatively simple, according to the key down addressing can be).</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-9dae304 elementor-widget elementor-widget-image" data-id="9dae304" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="1024" height="443" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT1-1024x443.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT1-1024x443.png 1024w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT1-300x130.png 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT1-768x333.png 768w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT1-1536x665.png 1536w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT1.png 1843w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-7c1c989 elementor-widget elementor-widget-text-editor" data-id="7c1c989" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>put_blob_set takes two arguments.</p><ul><li>One is the data to be updated, blob_set, which is essentially a list of key-value pairs, where the key is the hash of the user’s account address and the value is the serialized binary data of all resources&amp;modules under this account, represented here by the AccountStateBlob.</li><li>The second is the version of the transaction from which these updates are generated.</li></ul><p>In particular, this method does not actually write the data to the underlying storage, but rather returns an update to the tree, TreeUpdateBatch, and the Merkle hash of the updated tree. treeUpdateBatch contains which nodes to add and which nodes to remove for this operation, and the caller gets this data and then caller gets this data and then performs the actual write operation.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-059e9d8 elementor-widget elementor-widget-image" data-id="059e9d8" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="1024" height="373" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT2-1024x373.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT2-1024x373.png 1024w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT2-300x109.png 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT2-768x280.png 768w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT2-1536x559.png 1536w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT2.png 1845w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-0b95eae elementor-widget elementor-widget-heading" data-id="0b95eae" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Basic Data Structures</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-1260ac3 elementor-widget elementor-widget-text-editor" data-id="1260ac3" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>At this point, an introduction to the underlying data structure of JMT is needed.</p><p>NodeKey: The NodeKey is the actual key that the underlying KV storage engine stores, and consists of two parts, version and a half-byte representation of the location in the tree, nibble_path. version of the tree.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-4a7fcf0 elementor-widget elementor-widget-image" data-id="4a7fcf0" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="1024" height="235" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT3-1024x235.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT3-1024x235.png 1024w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT3-300x69.png 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT3-768x176.png 768w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT3-1536x353.png 1536w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT3.png 1846w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-cd1bb76 elementor-widget elementor-widget-text-editor" data-id="cd1bb76" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Node: Node represents the node of the tree in JMT and is also the actual Value (serialized as binary bytes) to be stored by the underlying KV storage engine.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-2a2bdef elementor-widget elementor-widget-image" data-id="2a2bdef" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="1024" height="646" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT4-1024x646.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT4-1024x646.png 1024w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT4-300x189.png 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT4-768x485.png 768w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT4.png 1413w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-35f7d80 elementor-widget elementor-widget-text-editor" data-id="35f7d80" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<ul><li>Node::Null is the representation of the entire tree when it is empty.</li><li>Node::Leaf Represents a leaf node of the tree. The LeadNode store&#8217;s specific account address information, as well as serialized account data.</li><li>Node::Internaldenotes an intermediate node with children. The intermediate node is actually just a HashMap with a maximum of 16 elements, respectively, for the set of 16 nibbles, 0x00~0x0fstoring the child nodes starting with different nibbles. This is a similar design to the MPT tree.</li></ul><p>The following diagram gives a schematic representation of a possible tree structure.<br />The starting circular node is the NodeKey used to find the tree&#8217;s root, the solid line represents the actual physical addressing (KV mapping in the database), and the dotted line represents the logical addressing (the association in the tree). Only the physical addressing process from the root pointer to the root data is marked in the figure, and the process is omitted further down. The reader only needs to understand that for each logical addressing, there is a physical addressing process in which the parent node needs to construct the corresponding NodeKey of the child node in the store.</p><p>There are five leaf nodes in the figure.</p><ul><li>The address of Leaf_0 starts with0, and only it starts with0.</li><li>The addresses of Leaf_5c2and Leaf_5c4 both start with 5c</li><li>Leaf_a4 and Leaf_ab ground address both start with a.</li><li>The addresses of Leaf_ac5 and Leaf_ac8 both start with ac.</li></ul><p>The remainder of the address is omitted from the figure to avoid the address being too long and affecting the look and feel of the image.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-5d00b09 elementor-widget elementor-widget-image" data-id="5d00b09" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="1024" height="324" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT5-1024x324.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT5-1024x324.png 1024w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT5-300x95.png 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT5-768x243.png 768w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT5-1536x487.png 1536w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT5.png 1708w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-eee9790 elementor-widget elementor-widget-heading" data-id="eee9790" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Writing Data Flow</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-acb3343 elementor-widget elementor-widget-text-editor" data-id="acb3343" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>This section will list several common scenarios to illustrate the impact of writing data at different locations on the tree structure.</p><p>The initial state of the tree is empty.</p><p>Scenario 1: Adding a node to an empty tree.</p><p>In this case, it is sufficient to construct the LeafNode directly and point the root key to it.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-40a4860 elementor-widget elementor-widget-image" data-id="40a4860" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="1024" height="149" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT21-1024x149.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT21-1024x149.png 1024w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT21-300x44.png 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT21-768x112.png 768w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT21-1536x224.png 1536w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT21.png 1708w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-57c16f6 elementor-widget elementor-widget-text-editor" data-id="57c16f6" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Scenario 2: A newly added address has the same prefix as a Leaf node.</p><p>In the following figure, Leaf_1b is a newly added node, which starts with 1 as well as the existing Leaf_1a . At this point, you need to construct an Internal node and add a, b as children to your own children. (The orange color in the figure represents the new node)</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-0ecc13f elementor-widget elementor-widget-image" data-id="0ecc13f" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="1024" height="302" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT22-1024x302.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT22-1024x302.png 1024w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT22-300x88.png 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT22-768x226.png 768w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT22-1536x453.png 1536w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT22.png 1709w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-cd9b3ec elementor-widget elementor-widget-text-editor" data-id="cd9b3ec" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>If the new address and the leaf node have more than one prefix in common, then the Internal node needs to be constructed recursively until the common parts are all Internal nodes.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-0493e19 elementor-widget elementor-widget-image" data-id="0493e19" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="1024" height="347" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT23-1024x347.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT23-1024x347.png 1024w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT23-300x102.png 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT23-768x260.png 768w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT23-1536x520.png 1536w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT23.png 1710w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-bacbd00 elementor-widget elementor-widget-text-editor" data-id="bacbd00" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Scenario 3: A new address is added that has the same prefix as the Internal node.</p><p>In this case, just add the new node to the children of the Internal node. In the following figure, the Leaf_1a2 node is placed in the nibble 2 slot of Internal_1a. (In the figure, the yellow node represents the node being replaced)</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-bc70056 elementor-widget elementor-widget-image" data-id="bc70056" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="1024" height="499" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT24-1024x499.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT24-1024x499.png 1024w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT24-300x146.png 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT24-768x374.png 768w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT24-1536x748.png 1536w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT24.png 1712w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-7e6544d elementor-widget elementor-widget-text-editor" data-id="7e6544d" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>The three scenarios listed above cover several situations that you will encounter when writing data.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-7fec998 elementor-widget elementor-widget-heading" data-id="7fec998" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Pointer generation during physical addressing</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-8d40a7e elementor-widget elementor-widget-text-editor" data-id="8d40a7e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>When searching for a common prefix down the root, JMT needs to keep going to the storage engine to get the data information of the child nodes, which involves how to construct the physical address of the child nodes through InternalNode, and this section will describe this process to add this missing link.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-ff1c401 elementor-widget elementor-widget-image" data-id="ff1c401" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="1024" height="281" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT25-1024x281.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT25-1024x281.png 1024w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT25-300x82.png 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT25-768x211.png 768w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT25-1536x422.png 1536w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT25.png 1704w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-85b8440 elementor-widget elementor-widget-text-editor" data-id="85b8440" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Earlier we gave the definition of the InternalNode structure, which contains up to 16 “child nodes”. The “child node” here does not store the real child data, but only a small amount of meta-information that can be used to construct a physical pointer to the child data. (Ignore child. hash, which is the hash data of child nodes cached for the purpose of calculating Merkle proof)</p><ul><li>child.version: the version of the child node when it was created.</li><li>children.nibble: The “slot” where the child node is located.</li><li>parent.nibble_path: The nibble_path of the parent node in the tree. this nibble_path is known when the parent node is addressed.</li></ul><p>Let’s look at the definition of the physical pointer NodeKey.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-cf628bb elementor-widget elementor-widget-image" data-id="cf628bb" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="1024" height="150" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT26-1024x150.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT26-1024x150.png 1024w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT26-300x44.png 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT26-768x112.png 768w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT26-1536x224.png 1536w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT26.png 1705w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-fa157b8 elementor-widget elementor-widget-text-editor" data-id="fa157b8" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>With the meta-information mentioned above, you can construct the NodeKey of the child node and use this key to extract the actual data of the child node from the storage engine.</p><ul><li>node_key.version = child.version</li><li>node_key.nibble_path = parent.nibble_path + child.nibble</li><li>NodeKey of the starting root node, only version information, nibble_path is empty.</li></ul>						</div>
+				</div>
+				<div class="elementor-element elementor-element-7310d2f elementor-widget elementor-widget-heading" data-id="7310d2f" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Summary</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-43118b4 elementor-widget elementor-widget-text-editor" data-id="43118b4" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>The design of JMT is actually relatively simple, except for Node::Null, there are only two typical nodes. The operation of the tree is also not complicated, and a few diagrams can basically explain it. This design is also relatively reasonable because it does not need to provide forking functionality.</p><p>But compared to MPT, JMT has a major drawback. Readers can guess what it is.</p><p>In Scenario 2, we mentioned that if the new address and the leaf node have more than one common prefix, then the Internal node needs to be constructed recursively until the common part is all Internal nodes.</p><p>What if, for example, the common prefix is too long? For example, if the first 31 bits are the same and only the last bit is different, JMT will keep constructing intermediate nodes in this case, causing the tree to become very deep.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-74f62ac elementor-widget elementor-widget-image" data-id="74f62ac" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="350" height="350" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/jellyfish.jpeg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/jellyfish.jpeg 350w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/jellyfish-300x300.jpeg 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/jellyfish-150x150.jpeg 150w" sizes="(max-width: 350px) 100vw, 350px" />															</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+							</div>
+		]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Formal verification tools for Move smart contracts</title>
+		<link>https://liangpin.ca/westar-demo/formal-verification-tools-for-move-smart-contracts/</link>
+		
+		<dc:creator><![CDATA[westar-demo]]></dc:creator>
+		<pubDate>Wed, 27 Jul 2022 16:10:36 +0000</pubDate>
+				<category><![CDATA[Blog StarCoin]]></category>
+		<category><![CDATA[blockchain]]></category>
+		<category><![CDATA[blog]]></category>
+		<category><![CDATA[Boogie program]]></category>
+		<category><![CDATA[CVC4]]></category>
+		<category><![CDATA[DAO attack]]></category>
+		<category><![CDATA[formal vertification]]></category>
+		<category><![CDATA[Move]]></category>
+		<category><![CDATA[Move smart contracts]]></category>
+		<category><![CDATA[smart contract language for linear logic]]></category>
+		<category><![CDATA[starcoin]]></category>
+		<category><![CDATA[Z3]]></category>
+		<guid isPermaLink="false">https://liangpin.ca/westar-demo/?p=978</guid>
+
+					<description><![CDATA[Formal verification tools for Move smart contracts Smart contracts are an area with very high-security requirements, and a small, inadvertent bug could very well lead to incalculable damage. Not long ago the Raven Project broke a very low-level bug [1]: the community developer submitted a small patch with only a few lines of changes that &#8230;<p class="read-more"> <a class="" href="https://liangpin.ca/westar-demo/formal-verification-tools-for-move-smart-contracts/"> <span class="screen-reader-text">Formal verification tools for Move smart contracts</span> Read More &#187;</a></p>]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="978" class="elementor elementor-978">
+									<section class="elementor-section elementor-top-section elementor-element elementor-element-70285c8 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="70285c8" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-e3adb29" data-id="e3adb29" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-2a38003 elementor-widget elementor-widget-heading" data-id="2a38003" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h1 class="elementor-heading-title elementor-size-default">Formal verification tools for Move smart contracts</h1>		</div>
+				</div>
+				<div class="elementor-element elementor-element-357d514 elementor-widget elementor-widget-text-editor" data-id="357d514" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Smart contracts are an area with very high-security requirements, and a small, inadvertent bug could very well lead to incalculable damage.</p><p>Not long ago the Raven Project broke a very low-level bug [1]: the community developer submitted a small patch with only a few lines of changes that needed to be checked for three cases, and he intentionally left out the third case, which was actually missing an “else”. The core developer accepted the patch without finding the bug, and eventually, the attacker used the vulnerability he submitted to issue 300 million Raven Coin.</p><p>There are numerous examples in the history of smart contract development, the most famous of which is The DAO attack, which directly led to the hard fork of Ether. The main reason for this security attack is that the transfer model used by The DAO project is to transfer funds to the user before modifying the user’s balance status, which allows the attacker to construct a malicious contract to recursively call the project’s transfer function while accepting the transfer, causing the user’s balance status to keep withdrawing the project’s funds without being changed.</p><p>Is there no better solution to deal with bugs in smart contracts than to enhance testing? There is a solution — Formal verification.</p><p>Formal verification is not a new technology, it has actually existed for 30 or 40 years and is mainly used in the military, aerospace, and other fields with high requirements for system security. It is a mathematical and logic-based approach that can effectively detect the existence of security vulnerabilities in a program by rigorously proving the correctness of the code by mathematical means before it is deployed. Compared with the traditional means of finding code vulnerabilities by manual means, formal verification can solve the defect that manual means cannot exhaust all possible inputs.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-0de72cc elementor-widget elementor-widget-image" data-id="0de72cc" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="512" height="218" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/formal-vertification.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/formal-vertification.png 512w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/formal-vertification-300x128.png 300w" sizes="(max-width: 512px) 100vw, 512px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-2538b0b elementor-widget elementor-widget-text-editor" data-id="2538b0b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Note: The picture is from the internet, the exact source is not found, we would like to express our thanks to the author of the picture!</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-30e43ae elementor-widget elementor-widget-text-editor" data-id="30e43ae" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>The security features of the Move language can be divided into three levels: the language level, the virtual machine level, and the tool level.</p><p>The language level has a Rust-like ownership system, a strong data abstraction with Module-script, and assets as first-class citizens; the virtual machine level has a Java-like bytecode verifier, and the tool level provides a formal verification tool based on Boogie.</p><p>Move’s formal verification tool, called Move Prover, is based on the idea of verifying that a program conforms to a specification by means of an automatic theorem-proving solver in the formal verification domain. Move defines its own specification language, called Move specification language, which describes how a program should run correctly through preconditions, postconditions, invariants, and so on. A Move to boogie compiler then converts the Move program and specification into a boogie program, an intermediate verification language with formal semantics.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-5068ee1 elementor-widget elementor-widget-image" data-id="5068ee1" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="423" height="235" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/boogie-program.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/boogie-program.png 423w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/boogie-program-300x167.png 300w" sizes="(max-width: 423px) 100vw, 423px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-aa5a0ca elementor-widget elementor-widget-text-editor" data-id="aa5a0ca" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Boogie was developed by Microsoft and it has two layers. First, it is an intermediate verification language with formal semantics, designed to build program verifiers for other languages. Several program verifiers have been built based on the Boogie language, the more famous ones include VCC and HAVOC verifiers for C language. Also, Boogie is the name of the tool. The tool accepts the Boogie language as input, generates verification conditions, and passes them to the automatic theorem proving solvers Z3 or CVC4. The default solver is Z3, which is an SMT (Satisfiability Modulo Theories ) solver. Satisfiability Modulo Theories belong to the category of logic and are simply understood to give a final result, either the input program meets the given specification or it does not. A specific path is given when it does not.</p><p>Here is an example in Figure 1.0 to see how to find hidden bugs in the program by Move prover. This arithmetic() method calculates the sum of two 64-bit unsigned integers x and y, then divides by x and returns the result. At first glance, there is nothing wrong with this method, but in fact, it hides two bugs, overflow, and division by zero. The spec fun of the same name at the bottom is a specification written in the Move specification language. It specifies all possible exception exit paths for arithmetic() through two aborts_if conditional statements. The first aborts_if describes an exit due to an overflow, and the second aborts_if describes an abnormal exit with a divisor of 0. Assuming you didn’t know at first that arithmetic() could possibly exit abnormally, and spec fun arithmetic doesn’t include any abort_if conditions, then you run move prover and the result will show that there are paths to exit abnormally that are not included in the specification, and will detail the paths to exit abnormally for both of the above. After seeing these hints, you know you need to modify the arithmetic() method to add judgments for overflow and division by 0.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-27aca08 elementor-widget elementor-widget-image" data-id="27aca08" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="444" height="144" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/move-program.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/move-program.png 444w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/move-program-300x97.png 300w" sizes="(max-width: 444px) 100vw, 444px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-5bbfa35 elementor-widget elementor-widget-text-editor" data-id="5bbfa35" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Figure 1.0</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-65d1166 elementor-widget elementor-widget-text-editor" data-id="65d1166" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Let’s look at another example in Figure 2.0. If you know anything about the Move language, you know that Move provides a special bytecode for moving resources. The following Move method moves a resource of type R out from under address a, and then repackages it under the sender’s address. This method has two exception exit paths, one path is that there is no R resource under address a, and the other path is that if the sender is not equal to a, there is already another R resource under the sender. If the sender is equal to a, there will be no problem because there is no problem moving R out from under the sender and back into the sender. If the sender is not equal to a, there will be a problem because the Move language specifies that only one resource of the same type can be stored under an address, and there is already a resource of type R under the sender, which creates a conflict. If the exit condition on lines 11 or 12 is removed, move prover reports that there is an exception exit path not covered by the specification. The developer can then modify the program to add these two conditional judgments based on the specific paths.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-414d28f elementor-widget elementor-widget-image" data-id="414d28f" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="486" height="237" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/Move-language.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/Move-language.png 486w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/Move-language-300x146.png 300w" sizes="(max-width: 486px) 100vw, 486px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-10fd88e elementor-widget elementor-widget-text-editor" data-id="10fd88e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Figure 2.0</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-4362b16 elementor-widget elementor-widget-text-editor" data-id="4362b16" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>The two examples above give a general idea of how Move prover is used, and detailed instructions can be found in the documentation accompanying the Libra code [2]. As mentioned in the Move whitepaper, Move’s long-term goal is to build a culture of “correctness” where the first thing a user does to understand the functionality of a contract is to look at its specifications. Ideally, Move programmers would not use a contract that has not been formally validated. However, the challenges of trying to achieve this goal are significant. The formal validation tool requires the user to understand the logic of the program in detail and then communicate it to the validation system in the form of a specification; whether the validation tool is accurate and intuitive, whether the specification is modular and reusable, and whether the readability is good enough are all challenges for the formal validation tool. programming.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-f5fea14 elementor-widget elementor-widget-text-editor" data-id="f5fea14" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>This article is written by Guangyuz Zhu (<a href="https://twitter.com/guangyuz" target="_blank" rel="noopener">@guangyuz</a>), a blockchain enthusiast and former JVM expert at Alibaba. He is now working at Westar Labs, doing research on smart contract programming language, security, and scalability.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-1316e8f elementor-widget elementor-widget-text-editor" data-id="1316e8f" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Reference article:</p><ol class="ol1"><li class="li1"><span class="s1"><a href="https://github.com/ravenproject/ravencoin/commit/d23f862a6afc17092ae31b67d96bc2738fe917d2" target="_blank" rel="noopener"><span class="s2">https://github.com/ravenproject/ravencoin/commit/d23f862a6afc17092ae31b67d96bc2738fe917d2</span></a></span></li><li class="li2"><span class="s1"><a href="https://github.com/libra/libra/tree/master/language/move-prover/doc/user" target="_blank" rel="noopener"><span class="s2">https://github.com/libra/libra/tree/master/language/move-prover/doc/user</span></a></span></li></ol>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+							</div>
+		]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Top 10 highlights of StarCoin</title>
+		<link>https://liangpin.ca/westar-demo/top-10-highlights-of-starcoin/</link>
+		
+		<dc:creator><![CDATA[westar-demo]]></dc:creator>
+		<pubDate>Wed, 27 Jul 2022 15:17:27 +0000</pubDate>
+				<category><![CDATA[Blog StarCoin]]></category>
+		<category><![CDATA[blockchain]]></category>
+		<category><![CDATA[blog]]></category>
+		<category><![CDATA[Clear ownership]]></category>
+		<category><![CDATA[enhanced PoW]]></category>
+		<category><![CDATA[Formal verification]]></category>
+		<category><![CDATA[Move]]></category>
+		<category><![CDATA[On-chain governance DAO]]></category>
+		<category><![CDATA[Secure Smart Contract Upgrade Solution]]></category>
+		<category><![CDATA[Self-explaining economic model]]></category>
+		<category><![CDATA[smart contract language for linear logic]]></category>
+		<category><![CDATA[starcoin]]></category>
+		<category><![CDATA[Stdlib]]></category>
+		<guid isPermaLink="false">https://liangpin.ca/westar-demo/?p=953</guid>
+
+					<description><![CDATA[top 10 highlights of starcoin On May 18, 2021, Starcoin publicly held an event to launch the Starcoin mainnet, inviting a group of crypto industry leaders, builders and innovators to witness the birth of the Starcoin mainnet. just a few months after the Starcoin mainnet went online, it has won a lot of attention in &#8230;<p class="read-more"> <a class="" href="https://liangpin.ca/westar-demo/top-10-highlights-of-starcoin/"> <span class="screen-reader-text">Top 10 highlights of StarCoin</span> Read More &#187;</a></p>]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="953" class="elementor elementor-953">
+									<section class="elementor-section elementor-top-section elementor-element elementor-element-deeb4dc elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="deeb4dc" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3b0d275" data-id="3b0d275" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-c56ac2b elementor-widget elementor-widget-heading" data-id="c56ac2b" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h1 class="elementor-heading-title elementor-size-default">top 10 highlights of starcoin</h1>		</div>
+				</div>
+				<div class="elementor-element elementor-element-74d80d1 elementor-widget elementor-widget-text-editor" data-id="74d80d1" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>On May 18, 2021, Starcoin publicly held an event to launch the Starcoin mainnet, inviting a group of crypto industry leaders, builders and innovators to witness the birth of the Starcoin mainnet. just a few months after the Starcoin mainnet went online, it has won a lot of attention in the industry and accumulated a group of loyal fans. So what kind of advantages does Starcoin have compared to other public chains? In this article, we list the ten highlights and innovative designs of Starcoin for your reference.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-054b2da elementor-widget elementor-widget-heading" data-id="054b2da" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Enhanced PoW</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-88ec017 elementor-widget elementor-widget-text-editor" data-id="88ec017" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>The Starcoin consensus is an enhanced version of the Satoshi Nakamoto consensus, which has two ways to increase network throughput, by increasing block size or short outgoing block intervals. Both ways increase the probability of unclear or orphaned blocks in the network, and the increase of unclear and orphaned blocks will increase the congestion of the network, which in turn reduces the difficulty of double-spend attacks, thus threatening the security of the network. In order to solve this problem, balance the throughput and network congestion, and maximize the use of the network, Starcoin consensus is optimized and enhanced on top of Bitcoin consensus.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-f9ea20a elementor-widget elementor-widget-text-editor" data-id="f9ea20a" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<ul><li>Starcoin consensus introduces runtime data such as uncle block rate, detects network congestion, and then automatically and dynamically adjusts block-out time, difficulty, and block-out reward to find a balance between throughput and network congestion, reducing network security risk and improving user experience.</li><li>Starcoin consensus is able to capture fluctuations in arithmetic power more acutely, adjusting the difficulty in a timely manner and reducing the risk of arithmetic attacks.</li><li>Consensus-related parameters can be safely escalated through community governance.</li></ul>						</div>
+				</div>
+				<div class="elementor-element elementor-element-6fb1531 elementor-widget elementor-widget-heading" data-id="6fb1531" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Self-explaining economic model</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-ff89335 elementor-widget elementor-widget-text-editor" data-id="ff89335" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>STC is the native Token of the Starcoin network, with a total issue of 3,185,136,000 STCs, a constant total, locked in the Treasury module. One part rewards those honest nodes that guard the security of the Starcoin network, and the other part goes to the on-chain ecosystem through withdrawal rights in a linear release. By incentivizing the on-chain ecology, the overall application flourishes. With a prosperous on-chain ecological application, the on-chain base ecological gains, and finally the circulating STCs are returned to the Treasury module again by some means.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-45d6b01 elementor-widget elementor-widget-image" data-id="45d6b01" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="988" height="510" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_economy.jpeg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_economy.jpeg 988w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_economy-300x155.jpeg 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_economy-768x396.jpeg 768w" sizes="(max-width: 988px) 100vw, 988px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-2978e70 elementor-widget elementor-widget-heading" data-id="2978e70" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Clear ownership</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-565e8a1 elementor-widget elementor-widget-text-editor" data-id="565e8a1" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>In a public chain with Solidity as the smart contract language, taking ERC20 as an example, although the wallet shows that a certain ERC20 belongs to a certain account, there is no such data in the data store of the account. Where is this data? The data is stored uniformly under the account of the contract implementation of that ERC20, distinguished by a Map-like data structure, marked by Address. This centralized way of storing data, on the one hand, does not give ownership of the data to the corresponding account, and on the other hand, there are security risks.</p><p>In Starcoin’s account model, any data generated by a contract can be stored decentrally under the user’s respective account data. When a user needs to manipulate their own data, they take it out of their account and pass it to the contract for manipulation. On the one hand, it is clear which account the data belongs to, and on the other hand, it reduces the security risk of the data.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-863b8f9 elementor-widget elementor-widget-image" data-id="863b8f9" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="834" height="441" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_account_example.jpeg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_account_example.jpeg 834w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_account_example-300x159.jpeg 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_account_example-768x406.jpeg 768w" sizes="(max-width: 834px) 100vw, 834px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-173bc70 elementor-widget elementor-widget-heading" data-id="173bc70" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Status Fees</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-57c7f32 elementor-widget elementor-widget-text-editor" data-id="57c7f32" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>State explosion is a problem faced by many public chains. A lot of data, written to the chain, even if it no longer has any value or meaning, has to be kept for a long time and also synchronized by other nodes. This is actually a great waste of resources, and a distributed system that only increases and decreases is difficult to maintain continuity in the long run, which is a problem to be faced sooner or later.</p><p>Starcoin focused on the state explosion at the beginning of its design, and through clever design, made long-term preparations for state fees, gradually eliminating which data has no value. It is a benign law of development to eliminate worthless data and provide value-added space for more valuable data.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-9b8b8de elementor-widget elementor-widget-heading" data-id="9b8b8de" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Move — A smart contract language for linear logic</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-677c8a5 elementor-widget elementor-widget-text-editor" data-id="677c8a5" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>In the DeFi era, security issues occur frequently, such as TheDAO vulnerability, Parity wallet vulnerability, PolyNetwork vulnerability, etc., which can easily cost hundreds of millions of dollars each year. The reasons for these vulnerabilities are varied, but most of the common vulnerabilities are simply overlooked during development and design, such as overflow issues. On the one hand, no one can completely guarantee that there will be no vulnerabilities, and on the other hand, security is a very specialized segment of the computer industry, usually with dedicated practitioners, not usually the same people as smart contract developers. In fact, this is a higher security requirement for smart contract developers, raising the development bar in disguise.</p><p>Starcoin expects to choose a more secure language as its smart contract language, to address most of the common vulnerabilities such as overflow vulnerabilities from the language level, to lower the threshold for developers, to reduce the security risk of smart contracts, and thus to reduce vulnerability generation. With this in mind, Starcoin finally chose Move as its smart contract language.</p><p>Move is a linear logic smart contract language with resource-oriented programming and very good security features. Smart contract developers are likewise able to easily write contracts that meet certain security requirements while focusing only on business logic, and can greatly avoid common security risks such as overflows and infinite incrementation.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-feb50ce elementor-widget elementor-widget-image" data-id="feb50ce" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="826" height="434" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_resource_vs_info.jpeg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_resource_vs_info.jpeg 826w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_resource_vs_info-300x158.jpeg 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_resource_vs_info-768x404.jpeg 768w" sizes="(max-width: 826px) 100vw, 826px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-ba3d276 elementor-widget elementor-widget-heading" data-id="ba3d276" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Formal verification
+</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-ea609c1 elementor-widget elementor-widget-text-editor" data-id="ea609c1" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Formal verification is a relatively cutting-edge technology that proves the security of a program through mathematical means. Ethereum-led public chains have been exploring formal verification to improve the security of smart contracts for many years, but have not found a good and implementable solution.</p><p>Move has supported a mature set of formal verification tools based on resource-oriented programming to enhance security. Users can simply write SPECs to mathematically prove the security of the program, easily avoiding any security risks caused by oversight.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-7eb7e99 elementor-widget elementor-widget-image" data-id="7eb7e99" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="512" height="218" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_move_spec.jpeg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_move_spec.jpeg 512w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_move_spec-300x128.jpeg 300w" sizes="(max-width: 512px) 100vw, 512px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-428f6ad elementor-widget elementor-widget-heading" data-id="428f6ad" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Stdlib</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-9dfd99f elementor-widget elementor-widget-text-editor" data-id="9dfd99f" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Starcoin has a very interesting feature that no other public chain has: Stdlib.</p><p>Starcoin uses Stdlib to officially order and publish some common contracts for other users, which are easy to use right out of the box.</p><ul><li>Underlying contracts, such as floating-point operation contracts.</li><li>Ordering common protocols, such as Token protocol, NFT protocol, Oracle protocol, etc.</li></ul><p>Starcoin’s Stdlib is an already implemented contract. Because the official implementation has been provided, based on the Stdlib base protocol, users can easily design their own applications, such as NFT applications or Oracle applications, without having to implement them themselves according to the protocol, and only need to implement the business logic contract code.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-c7b9e85 elementor-widget elementor-widget-heading" data-id="c7b9e85" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">On-chain governance DAO
+</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-38832e5 elementor-widget elementor-widget-image" data-id="38832e5" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="270" height="152" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_dao.jpeg" class="attachment-large size-large" alt="" loading="lazy" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-f7c68c4 elementor-widget elementor-widget-text-editor" data-id="f7c68c4" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Starcoin has customized a very versatile set of on-chain governance DAO contracts in Stdlib, out of the box. Anyone can use it, and any decision at the contract level can be done in an on-chain governance way. Also, anyone in the community can participate in the governance of the community by voting for or against it.</p><p>This is a universal DAO that supports any type of Token voting. The vote has a validity time and is valid only after the number of votes reaches a threshold of 4% of Tokens in circulation within the specified time. If there are more votes for than against, the vote passes, otherwise, if there are more votes against than for, the vote fails.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-caf92a6 elementor-widget elementor-widget-heading" data-id="caf92a6" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Secure Smart Contract Upgrade Solution</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-c6b80fd elementor-widget elementor-widget-text-editor" data-id="c6b80fd" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Starcoin believes in the law as code. In some very specific cases, Starcoin also wants to have a solution for securely upgrading smart contracts.</p><p>Starcoin’s contracts mark uniqueness by Module name and Ethereum’s contracts mark uniqueness by HashCode. So Starcoin’s smart contracts can be upgraded with guaranteed compatibility. Starcoin’s Stdlib uses this approach to securely upgrade smart contracts by combining with on-chain governance DAOs to vote on contract upgrades under the supervision of the entire community.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-ca2bf27 elementor-widget elementor-widget-image" data-id="ca2bf27" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="764" height="1024" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_upgrade-764x1024.jpeg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_upgrade-764x1024.jpeg 764w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_upgrade-224x300.jpeg 224w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_upgrade-768x1030.jpeg 768w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_upgrade.jpeg 804w" sizes="(max-width: 764px) 100vw, 764px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-a4901fa elementor-widget elementor-widget-heading" data-id="a4901fa" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Scalable second layer</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-148fda1 elementor-widget elementor-widget-text-editor" data-id="148fda1" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Starcoin is a layered smart contract with the Defi network, which means that Starcoin not only has a layer of the network but also designs and implements its own second layer. starcoin’s second layer is dedicated to securely connecting everyone, penetrating blockchain technology into daily life scenarios, and allowing users to enjoy the dividends and convenience of blockchain.</p><p>Starcoin’s second layer will be a universal solution. By finding a secure algorithm that allows for a more NATIVE combination of layer one and layer two, data can flow securely, freely and easily between the two layers.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-00062c0 elementor-widget elementor-widget-image" data-id="00062c0" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="1024" height="364" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_logo-1024x364.jpeg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_logo-1024x364.jpeg 1024w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_logo-300x107.jpeg 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_logo-768x273.jpeg 768w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_logo.jpeg 1108w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-e24e379 elementor-widget elementor-widget-heading" data-id="e24e379" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">More features of Starcoin</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-f1ba6c1 elementor-widget elementor-widget-text-editor" data-id="f1ba6c1" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>In addition to the ten highlights mentioned above, there are many more interesting highlights of Starcoin, such as first-class CitizenResource, dual MerkleAccumulator, double-layer state tree, two-stage commit, innate NFT type, safer Token, Oracle protocol, convenient contract account, etc. We will add them slowly when we have time.</p><p>Starcoin is more than just a public chain, starting from a layer that encompasses Move, a smart contract for DeFi, a scalable second layer, and a lot of excellent design and innovation at all levels compared to other public chains.</p>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+							</div>
+		]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

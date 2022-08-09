@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>pointer nodekey &#8211; Westar</title>
+	<atom:link href="https://liangpin.ca/westar-demo/zh/tag/pointer-nodekey-zh/feed/" rel="self" type="application/rss+xml" />
+	<link>https://liangpin.ca/westar-demo</link>
+	<description>Crypto-Native Blockchain Enthusiasts</description>
+	<lastBuildDate>Mon, 08 Aug 2022 13:28:30 +0000</lastBuildDate>
+	<language>zh-CN</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+
+<image>
+	<url>https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cropped-logo-icon-32x32.png</url>
+	<title>pointer nodekey &#8211; Westar</title>
+	<link>https://liangpin.ca/westar-demo</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Jellyfish merkle tree in libra blockchain</title>
+		<link>https://liangpin.ca/westar-demo/zh/jellyfish-merkle-tree-in-libra-blockchain-2/</link>
+		
+		<dc:creator><![CDATA[westar-demo]]></dc:creator>
+		<pubDate>Mon, 08 Aug 2022 13:25:03 +0000</pubDate>
+				<category><![CDATA[Westar 实验室]]></category>
+		<category><![CDATA[blockchain]]></category>
+		<category><![CDATA[blog]]></category>
+		<category><![CDATA[common prefix]]></category>
+		<category><![CDATA[data flow]]></category>
+		<category><![CDATA[Jelleyfish markle tree]]></category>
+		<category><![CDATA[JMT]]></category>
+		<category><![CDATA[libra]]></category>
+		<category><![CDATA[MPT]]></category>
+		<category><![CDATA[Node::Null]]></category>
+		<category><![CDATA[physical addressing]]></category>
+		<category><![CDATA[pointer generation]]></category>
+		<category><![CDATA[pointer nodekey]]></category>
+		<category><![CDATA[starcoin]]></category>
+		<category><![CDATA[state storage]]></category>
+		<category><![CDATA[Westar]]></category>
+		<guid isPermaLink="false">https://liangpin.ca/westar-demo/?p=2217</guid>
+
+					<description><![CDATA[Jellyfish Merkle Tree in Libra Blockchain This article  &#8230;<p class="read-more"> <a class="" href="https://liangpin.ca/westar-demo/zh/jellyfish-merkle-tree-in-libra-blockchain-2/"> <span class="screen-reader-text">Jellyfish merkle tree in libra blockchain</span> 查看全文 &#187;</a></p>]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="2217" class="elementor elementor-2217">
+									<section class="elementor-section elementor-top-section elementor-element elementor-element-16e0dd2 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="16e0dd2" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-e30b2ff" data-id="e30b2ff" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-4687196 elementor-widget elementor-widget-heading" data-id="4687196" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.6.7 - 03-07-2022 */
+.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style><h1 class="elementor-heading-title elementor-size-default">Jellyfish Merkle Tree in Libra Blockchain</h1>		</div>
+				</div>
+				<div class="elementor-element elementor-element-fdff86b elementor-widget elementor-widget-text-editor" data-id="fdff86b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.6.7 - 03-07-2022 */
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#818a91;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#818a91;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				<p>This article introduces the Jellyfish Merkle Tree (JMT), a data structure used to store blockchain state data in Libra. The article firstly outlines the role and function of JMT in Libra and its main features; then focuses on its interface and internal implementation; finally, it compares it with Ether’s MPT tree and talks about its advantages and disadvantages.</p><p>Libra is similar to Ethernet in design, both belong to the account model, but unlike Ethernet, which stores contract data in a separate contract account, Libra abstracts contract data into Resource and stores it directly under the account (contract code Module is also stored directly into the account, code is data, both have the same status in Libra storage). The two have the same status in Libra storage). When a user uses a contract, the data generated by the contract is placed under the user’s account. The Jellyfish Merkle Tree is used to store these (account_address, resources/modules), which is important to see. But Libra uses a consensus of PBFT (with plans to move to a PoS-like consensus), and there is no such thing as a forked rollback. So the JMT implementation, somewhat different from the Ether Merkle Patricia Tree1 , does not need to consider forks.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-d3f4675 elementor-widget elementor-widget-alert" data-id="d3f4675" data-element_type="widget" data-widget_type="alert.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.6.7 - 03-07-2022 */
+.elementor-alert{padding:15px;border-left:5px solid transparent;position:relative;text-align:left}.elementor-alert .elementor-alert-title{display:block;font-weight:700}.elementor-alert .elementor-alert-description{font-size:13px}.elementor-alert button.elementor-alert-dismiss{position:absolute;right:10px;top:10px;padding:3px;font-size:20px;line-height:1;background:transparent;color:inherit;border:none;cursor:pointer}.elementor-alert.elementor-alert-info{color:#31708f;background-color:#d9edf7;border-color:#bcdff1}.elementor-alert.elementor-alert-success{color:#3c763d;background-color:#dff0d8;border-color:#cae6be}.elementor-alert.elementor-alert-warning{color:#8a6d3b;background-color:#fcf8e3;border-color:#f9f0c3}.elementor-alert.elementor-alert-danger{color:#a94442;background-color:#f2dede;border-color:#e8c4c4}@media (max-width:767px){.elementor-alert{padding:10px}.elementor-alert button.elementor-alert-dismiss{right:7px;top:7px}}</style>		<div class="elementor-alert elementor-alert-info" role="alert">
+			<span class="elementor-alert-title">Note:</span>
+							<span class="elementor-alert-description">In the following, readers are required to have some understanding of the Ether MPT tree, and are advised to read the related information after the following to better understand JMT.</span>
+								</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-2ff5009 elementor-widget elementor-widget-text-editor" data-id="2ff5009" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>In MPT2, the query and insertion of kv pairs start with the root_hash: H256 of a world state as the entry point of the whole tree, and the insertion of kv pairs generates a new state_root_hash, forming an incremental iterative process. With the root_hash, the upper caller can easily do a rollback operation by simply rewriting a new kv pair from one of the historical states to complete the fork.</p><p>Libra was initially designed without the concept of a block, only a transaction, or each transaction is a block in the logical sense. the version here indicates the number of transactions that have been executed on the world state, initially 0. The version represents the number of transactions that have been executed on the world state, initially 0, and the version is increased by 1 for each additional txn.</p><p>This approach is not feasible in a forkable Etherchain. Because when each forked chain forks, the state of the world after executing the same version of txn is different, otherwise it is not a forked chain.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-89dc11e elementor-widget elementor-widget-image" data-id="89dc11e" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.6.7 - 03-07-2022 */
+.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>												<img width="1024" height="185" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/jellyfish-merkle-tree-1024x185.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/jellyfish-merkle-tree-1024x185.png 1024w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/jellyfish-merkle-tree-300x54.png 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/jellyfish-merkle-tree-768x139.png 768w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/jellyfish-merkle-tree-1536x278.png 1536w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/jellyfish-merkle-tree-2048x371.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-b4863c0 elementor-widget elementor-widget-text-editor" data-id="b4863c0" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>This is one of the main features that distinguish JMT from MPT, but of course the internal implementation has also been simplified, so let’s focus on its interface and implementation.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-df53648 elementor-widget elementor-widget-heading" data-id="df53648" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">JMT Implementation</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-a79d339 elementor-widget elementor-widget-text-editor" data-id="a79d339" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>JMT provides a relatively simple interface to the outside, a write interface, a read interface, here the main focus on the write interface (read interface is relatively simple, according to the key down addressing can be).</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-9dae304 elementor-widget elementor-widget-image" data-id="9dae304" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="1024" height="443" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT1-1024x443.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT1-1024x443.png 1024w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT1-300x130.png 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT1-768x333.png 768w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT1-1536x665.png 1536w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT1.png 1843w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-7c1c989 elementor-widget elementor-widget-text-editor" data-id="7c1c989" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>put_blob_set takes two arguments.</p><ul><li>One is the data to be updated, blob_set, which is essentially a list of key-value pairs, where the key is the hash of the user’s account address and the value is the serialized binary data of all resources&amp;modules under this account, represented here by the AccountStateBlob.</li><li>The second is the version of the transaction from which these updates are generated.</li></ul><p>In particular, this method does not actually write the data to the underlying storage, but rather returns an update to the tree, TreeUpdateBatch, and the Merkle hash of the updated tree. treeUpdateBatch contains which nodes to add and which nodes to remove for this operation, and the caller gets this data and then caller gets this data and then performs the actual write operation.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-059e9d8 elementor-widget elementor-widget-image" data-id="059e9d8" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="1024" height="373" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT2-1024x373.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT2-1024x373.png 1024w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT2-300x109.png 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT2-768x280.png 768w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT2-1536x559.png 1536w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT2.png 1845w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-0b95eae elementor-widget elementor-widget-heading" data-id="0b95eae" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Basic Data Structures</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-1260ac3 elementor-widget elementor-widget-text-editor" data-id="1260ac3" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>At this point, an introduction to the underlying data structure of JMT is needed.</p><p>NodeKey: The NodeKey is the actual key that the underlying KV storage engine stores, and consists of two parts, version and a half-byte representation of the location in the tree, nibble_path. version of the tree.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-4a7fcf0 elementor-widget elementor-widget-image" data-id="4a7fcf0" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="1024" height="235" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT3-1024x235.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT3-1024x235.png 1024w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT3-300x69.png 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT3-768x176.png 768w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT3-1536x353.png 1536w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT3.png 1846w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-cd1bb76 elementor-widget elementor-widget-text-editor" data-id="cd1bb76" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Node: Node represents the node of the tree in JMT and is also the actual Value (serialized as binary bytes) to be stored by the underlying KV storage engine.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-2a2bdef elementor-widget elementor-widget-image" data-id="2a2bdef" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="1024" height="646" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT4-1024x646.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT4-1024x646.png 1024w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT4-300x189.png 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT4-768x485.png 768w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT4.png 1413w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-35f7d80 elementor-widget elementor-widget-text-editor" data-id="35f7d80" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<ul><li>Node::Null is the representation of the entire tree when it is empty.</li><li>Node::Leaf Represents a leaf node of the tree. The LeadNode store&#8217;s specific account address information, as well as serialized account data.</li><li>Node::Internaldenotes an intermediate node with children. The intermediate node is actually just a HashMap with a maximum of 16 elements, respectively, for the set of 16 nibbles, 0x00~0x0fstoring the child nodes starting with different nibbles. This is a similar design to the MPT tree.</li></ul><p>The following diagram gives a schematic representation of a possible tree structure.<br />The starting circular node is the NodeKey used to find the tree&#8217;s root, the solid line represents the actual physical addressing (KV mapping in the database), and the dotted line represents the logical addressing (the association in the tree). Only the physical addressing process from the root pointer to the root data is marked in the figure, and the process is omitted further down. The reader only needs to understand that for each logical addressing, there is a physical addressing process in which the parent node needs to construct the corresponding NodeKey of the child node in the store.</p><p>There are five leaf nodes in the figure.</p><ul><li>The address of Leaf_0 starts with0, and only it starts with0.</li><li>The addresses of Leaf_5c2and Leaf_5c4 both start with 5c</li><li>Leaf_a4 and Leaf_ab ground address both start with a.</li><li>The addresses of Leaf_ac5 and Leaf_ac8 both start with ac.</li></ul><p>The remainder of the address is omitted from the figure to avoid the address being too long and affecting the look and feel of the image.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-5d00b09 elementor-widget elementor-widget-image" data-id="5d00b09" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="1024" height="324" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT5-1024x324.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT5-1024x324.png 1024w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT5-300x95.png 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT5-768x243.png 768w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT5-1536x487.png 1536w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT5.png 1708w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-eee9790 elementor-widget elementor-widget-heading" data-id="eee9790" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Writing Data Flow</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-acb3343 elementor-widget elementor-widget-text-editor" data-id="acb3343" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>This section will list several common scenarios to illustrate the impact of writing data at different locations on the tree structure.</p><p>The initial state of the tree is empty.</p><p>Scenario 1: Adding a node to an empty tree.</p><p>In this case, it is sufficient to construct the LeafNode directly and point the root key to it.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-40a4860 elementor-widget elementor-widget-image" data-id="40a4860" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="1024" height="149" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT21-1024x149.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT21-1024x149.png 1024w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT21-300x44.png 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT21-768x112.png 768w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT21-1536x224.png 1536w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT21.png 1708w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-57c16f6 elementor-widget elementor-widget-text-editor" data-id="57c16f6" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Scenario 2: A newly added address has the same prefix as a Leaf node.</p><p>In the following figure, Leaf_1b is a newly added node, which starts with 1 as well as the existing Leaf_1a . At this point, you need to construct an Internal node and add a, b as children to your own children. (The orange color in the figure represents the new node)</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-0ecc13f elementor-widget elementor-widget-image" data-id="0ecc13f" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="1024" height="302" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT22-1024x302.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT22-1024x302.png 1024w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT22-300x88.png 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT22-768x226.png 768w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT22-1536x453.png 1536w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT22.png 1709w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-cd9b3ec elementor-widget elementor-widget-text-editor" data-id="cd9b3ec" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>If the new address and the leaf node have more than one prefix in common, then the Internal node needs to be constructed recursively until the common parts are all Internal nodes.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-0493e19 elementor-widget elementor-widget-image" data-id="0493e19" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="1024" height="347" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT23-1024x347.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT23-1024x347.png 1024w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT23-300x102.png 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT23-768x260.png 768w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT23-1536x520.png 1536w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT23.png 1710w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-bacbd00 elementor-widget elementor-widget-text-editor" data-id="bacbd00" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Scenario 3: A new address is added that has the same prefix as the Internal node.</p><p>In this case, just add the new node to the children of the Internal node. In the following figure, the Leaf_1a2 node is placed in the nibble 2 slot of Internal_1a. (In the figure, the yellow node represents the node being replaced)</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-bc70056 elementor-widget elementor-widget-image" data-id="bc70056" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="1024" height="499" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT24-1024x499.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT24-1024x499.png 1024w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT24-300x146.png 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT24-768x374.png 768w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT24-1536x748.png 1536w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT24.png 1712w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-7e6544d elementor-widget elementor-widget-text-editor" data-id="7e6544d" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>The three scenarios listed above cover several situations that you will encounter when writing data.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-7fec998 elementor-widget elementor-widget-heading" data-id="7fec998" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Pointer generation during physical addressing</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-8d40a7e elementor-widget elementor-widget-text-editor" data-id="8d40a7e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>When searching for a common prefix down the root, JMT needs to keep going to the storage engine to get the data information of the child nodes, which involves how to construct the physical address of the child nodes through InternalNode, and this section will describe this process to add this missing link.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-ff1c401 elementor-widget elementor-widget-image" data-id="ff1c401" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="1024" height="281" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT25-1024x281.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT25-1024x281.png 1024w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT25-300x82.png 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT25-768x211.png 768w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT25-1536x422.png 1536w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT25.png 1704w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-85b8440 elementor-widget elementor-widget-text-editor" data-id="85b8440" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Earlier we gave the definition of the InternalNode structure, which contains up to 16 “child nodes”. The “child node” here does not store the real child data, but only a small amount of meta-information that can be used to construct a physical pointer to the child data. (Ignore child. hash, which is the hash data of child nodes cached for the purpose of calculating Merkle proof)</p><ul><li>child.version: the version of the child node when it was created.</li><li>children.nibble: The “slot” where the child node is located.</li><li>parent.nibble_path: The nibble_path of the parent node in the tree. this nibble_path is known when the parent node is addressed.</li></ul><p>Let’s look at the definition of the physical pointer NodeKey.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-cf628bb elementor-widget elementor-widget-image" data-id="cf628bb" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="1024" height="150" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT26-1024x150.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT26-1024x150.png 1024w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT26-300x44.png 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT26-768x112.png 768w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT26-1536x224.png 1536w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/JMT26.png 1705w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-fa157b8 elementor-widget elementor-widget-text-editor" data-id="fa157b8" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>With the meta-information mentioned above, you can construct the NodeKey of the child node and use this key to extract the actual data of the child node from the storage engine.</p><ul><li>node_key.version = child.version</li><li>node_key.nibble_path = parent.nibble_path + child.nibble</li><li>NodeKey of the starting root node, only version information, nibble_path is empty.</li></ul>						</div>
+				</div>
+				<div class="elementor-element elementor-element-7310d2f elementor-widget elementor-widget-heading" data-id="7310d2f" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Summary</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-43118b4 elementor-widget elementor-widget-text-editor" data-id="43118b4" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>The design of JMT is actually relatively simple, except for Node::Null, there are only two typical nodes. The operation of the tree is also not complicated, and a few diagrams can basically explain it. This design is also relatively reasonable because it does not need to provide forking functionality.</p><p>But compared to MPT, JMT has a major drawback. Readers can guess what it is.</p><p>In Scenario 2, we mentioned that if the new address and the leaf node have more than one common prefix, then the Internal node needs to be constructed recursively until the common part is all Internal nodes.</p><p>What if, for example, the common prefix is too long? For example, if the first 31 bits are the same and only the last bit is different, JMT will keep constructing intermediate nodes in this case, causing the tree to become very deep.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-74f62ac elementor-widget elementor-widget-image" data-id="74f62ac" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="350" height="350" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/jellyfish.jpeg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/jellyfish.jpeg 350w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/jellyfish-300x300.jpeg 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/jellyfish-150x150.jpeg 150w" sizes="(max-width: 350px) 100vw, 350px" />															</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+							</div>
+		]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>
