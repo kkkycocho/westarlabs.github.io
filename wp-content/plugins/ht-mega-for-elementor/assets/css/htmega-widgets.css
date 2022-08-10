@@ -862,7 +862,7 @@
   }
   
   ul.accordion--4 li .bgDescription {
-    background: transparent url(https://liangpin.ca/westar-demo/wp-content/plugins/ht-mega-for-elementor/assets/css/img/gallery/bgDescription.png) repeat-x top left;
+    background: transparent url(/wp-content/plugins/ht-mega-for-elementor/assets/css/img/gallery/bgDescription.png) repeat-x top left;
     height: 340px;
     position: absolute;
     bottom: 0px;
@@ -941,7 +941,7 @@
   }
   
   .accor_wrapper .single_accordion{
-    background: #000 url(https://liangpin.ca/westar-demo/wp-content/plugins/ht-mega-for-elementor/assets/css/img/gallery/gallery-e1.jpg) no-repeat center center;
+    background: #000 url(/wp-content/plugins/ht-mega-for-elementor/assets/css/img/gallery/gallery-e1.jpg) no-repeat center center;
     background-size: cover;
   }
   
@@ -2453,7 +2453,7 @@
   }
   
   .htmega-pricing-ribon::before {
-      content: url(https://liangpin.ca/westar-demo/wp-content/plugins/ht-mega-for-elementor/assets/images/pricing/pricing-ribon.png);
+      content: url(/wp-content/plugins/ht-mega-for-elementor/assets/images/pricing/pricing-ribon.png);
       left: 30px;
       position: absolute;
       top: -15px;
@@ -9636,7 +9636,7 @@ ul.htmega-testimonial-rating * {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(https://liangpin.ca/westar-demo/wp-content/plugins/ht-mega-for-elementor/assets/css/img/bg/bg-image-12.jpg);
+    background-image: url(/wp-content/plugins/ht-mega-for-elementor/assets/css/img/bg/bg-image-12.jpg);
     position: relative;
     display: inline-block;
     text-align: center;
@@ -9672,7 +9672,7 @@ ul.htmega-testimonial-rating * {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(https://liangpin.ca/westar-demo/wp-content/plugins/ht-mega-for-elementor/assets/css/img/bg/bg-image-12.jpg);
+    background-image: url(/wp-content/plugins/ht-mega-for-elementor/assets/css/img/bg/bg-image-12.jpg);
     width: 240px;
     position: absolute;
     top: 0;
@@ -10322,7 +10322,7 @@ ul.htmega-testimonial-rating * {
       width: 300%;
       height: 50px;
       opacity: 0;
-      background: url(https://liangpin.ca/westar-demo/wp-content/plugins/ht-mega-for-elementor/assets/images/icons/line.svg) no-repeat top left;
+      background: url(/wp-content/plugins/ht-mega-for-elementor/assets/images/icons/line.svg) no-repeat top left;
       -webkit-transform: translate3d(130px, 0, 0);
       transform: translate3d(130px, 0, 0);
       -webkit-transition: -webkit-transform 0s 0.3s, opacity 0.3s;
@@ -15798,7 +15798,7 @@ ul.htmega-testimonial-rating * {
    * Business Hours
   */
   .shapebg_image--1 {
-      background-image: url(https://liangpin.ca/westar-demo/wp-content/plugins/ht-mega-for-elementor/assets/css/img/others/business-shape.png);
+      background-image: url(/wp-content/plugins/ht-mega-for-elementor/assets/css/img/others/business-shape.png);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center center;
@@ -15927,7 +15927,7 @@ ul.htmega-testimonial-rating * {
   /* Business Hours style Four */
   .htmega-business-horurs-4 .business-hrs-inner {
       padding: 30px 50px;
-      background-image: url(https://liangpin.ca/westar-demo/wp-content/plugins/ht-mega-for-elementor/assets/css/img/bg/bg-image-40.jpg);
+      background-image: url(/wp-content/plugins/ht-mega-for-elementor/assets/css/img/bg/bg-image-40.jpg);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center center;

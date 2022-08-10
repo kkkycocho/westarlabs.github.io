@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Ethereum &#8211; Westar</title>
-	<atom:link href="https://liangpin.ca/westar-demo/zh/tag/ethereum-zh/feed/" rel="self" type="application/rss+xml" />
-	<link>https://liangpin.ca/westar-demo</link>
+	<atom:link href="/zh/tag/ethereum-zh/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
 	<description>Crypto-Native Blockchain Enthusiasts</description>
 	<lastBuildDate>Mon, 08 Aug 2022 13:57:15 +0000</lastBuildDate>
 	<language>zh-CN</language>
@@ -21,15 +21,15 @@
 	<generator>https://wordpress.org/?v=6.0.1</generator>
 
 <image>
-	<url>https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cropped-logo-icon-32x32.png</url>
+	<url>/wp-content/uploads/2022/07/cropped-logo-icon-32x32.png</url>
 	<title>Ethereum &#8211; Westar</title>
-	<link>https://liangpin.ca/westar-demo</link>
+	<link></link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Starcoin eco-benefits: cross-chain guide to fast-track ethereum learning</title>
-		<link>https://liangpin.ca/westar-demo/zh/starcoin-eco-benefits-cross-chain-guide-to-fast-track-ethereum-learning-2/</link>
+		<link>/zh/starcoin-eco-benefits-cross-chain-guide-to-fast-track-ethereum-learning-2/</link>
 		
 		<dc:creator><![CDATA[westar-demo]]></dc:creator>
 		<pubDate>Mon, 08 Aug 2022 13:32:02 +0000</pubDate>
@@ -46,9 +46,9 @@
 		<category><![CDATA[starcoin]]></category>
 		<category><![CDATA[starmask extension]]></category>
 		<category><![CDATA[StarMask Wallet]]></category>
-		<guid isPermaLink="false">https://liangpin.ca/westar-demo/?p=2222</guid>
+		<guid isPermaLink="false">/?p=2222</guid>
 
-					<description><![CDATA[Starcoin Eco-benefits: Cross-Chain Guide to Fast-Track  &#8230;<p class="read-more"> <a class="" href="https://liangpin.ca/westar-demo/zh/starcoin-eco-benefits-cross-chain-guide-to-fast-track-ethereum-learning-2/"> <span class="screen-reader-text">Starcoin eco-benefits: cross-chain guide to fast-track ethereum learning</span> 查看全文 &#187;</a></p>]]></description>
+					<description><![CDATA[Starcoin Eco-benefits: Cross-Chain Guide to Fast-Track  &#8230;<p class="read-more"> <a class="" href="/zh/starcoin-eco-benefits-cross-chain-guide-to-fast-track-ethereum-learning-2/"> <span class="screen-reader-text">Starcoin eco-benefits: cross-chain guide to fast-track ethereum learning</span> 查看全文 &#187;</a></p>]]></description>
 										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="2222" class="elementor elementor-2222">
 									<section class="elementor-section elementor-top-section elementor-element elementor-element-d3b8529 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d3b8529" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
@@ -109,7 +109,7 @@
 				<div class="elementor-element elementor-element-3113d61 elementor-widget elementor-widget-image" data-id="3113d61" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
 			<style>/*! elementor - v3.6.7 - 03-07-2022 */
-.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>												<img width="936" height="548" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/corss-chain1.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/corss-chain1.jpg 936w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/corss-chain1-300x176.jpg 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/corss-chain1-768x450.jpg 768w" sizes="(max-width: 936px) 100vw, 936px" />															</div>
+.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>												<img width="936" height="548" src="/wp-content/uploads/2022/07/corss-chain1.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/corss-chain1.jpg 936w, /wp-content/uploads/2022/07/corss-chain1-300x176.jpg 300w, /wp-content/uploads/2022/07/corss-chain1-768x450.jpg 768w" sizes="(max-width: 936px) 100vw, 936px" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-e448120 elementor-widget elementor-widget-text-editor" data-id="e448120" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -117,7 +117,7 @@
 				</div>
 				<div class="elementor-element elementor-element-6a9bac7 elementor-widget elementor-widget-image" data-id="6a9bac7" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="936" height="210" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain2.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain2.jpg 936w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain2-300x67.jpg 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain2-768x172.jpg 768w" sizes="(max-width: 936px) 100vw, 936px" />															</div>
+															<img width="936" height="210" src="/wp-content/uploads/2022/07/cross-chain2.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/cross-chain2.jpg 936w, /wp-content/uploads/2022/07/cross-chain2-300x67.jpg 300w, /wp-content/uploads/2022/07/cross-chain2-768x172.jpg 768w" sizes="(max-width: 936px) 100vw, 936px" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-576cd11 elementor-widget elementor-widget-text-editor" data-id="576cd11" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -141,7 +141,7 @@
 				</div>
 				<div class="elementor-element elementor-element-01118a1 elementor-widget elementor-widget-image" data-id="01118a1" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="936" height="548" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain3.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain3.jpg 936w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain3-300x176.jpg 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain3-768x450.jpg 768w" sizes="(max-width: 936px) 100vw, 936px" />															</div>
+															<img width="936" height="548" src="/wp-content/uploads/2022/07/cross-chain3.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/cross-chain3.jpg 936w, /wp-content/uploads/2022/07/cross-chain3-300x176.jpg 300w, /wp-content/uploads/2022/07/cross-chain3-768x450.jpg 768w" sizes="(max-width: 936px) 100vw, 936px" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-f70d591 elementor-widget elementor-widget-text-editor" data-id="f70d591" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -149,7 +149,7 @@
 				</div>
 				<div class="elementor-element elementor-element-7ad73f3 elementor-widget elementor-widget-image" data-id="7ad73f3" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="936" height="380" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/corss-chain4.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/corss-chain4.jpg 936w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/corss-chain4-300x122.jpg 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/corss-chain4-768x312.jpg 768w" sizes="(max-width: 936px) 100vw, 936px" />															</div>
+															<img width="936" height="380" src="/wp-content/uploads/2022/07/corss-chain4.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/corss-chain4.jpg 936w, /wp-content/uploads/2022/07/corss-chain4-300x122.jpg 300w, /wp-content/uploads/2022/07/corss-chain4-768x312.jpg 768w" sizes="(max-width: 936px) 100vw, 936px" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-a9116e4 elementor-widget elementor-widget-text-editor" data-id="a9116e4" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -157,7 +157,7 @@
 				</div>
 				<div class="elementor-element elementor-element-98f7329 elementor-widget elementor-widget-image" data-id="98f7329" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="936" height="594" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain5.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain5.jpg 936w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain5-300x190.jpg 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain5-768x487.jpg 768w" sizes="(max-width: 936px) 100vw, 936px" />															</div>
+															<img width="936" height="594" src="/wp-content/uploads/2022/07/cross-chain5.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/cross-chain5.jpg 936w, /wp-content/uploads/2022/07/cross-chain5-300x190.jpg 300w, /wp-content/uploads/2022/07/cross-chain5-768x487.jpg 768w" sizes="(max-width: 936px) 100vw, 936px" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-1a5e645 elementor-widget elementor-widget-text-editor" data-id="1a5e645" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -165,7 +165,7 @@
 				</div>
 				<div class="elementor-element elementor-element-710f781 elementor-widget elementor-widget-image" data-id="710f781" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="936" height="282" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/corss-chain6.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/corss-chain6.jpg 936w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/corss-chain6-300x90.jpg 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/corss-chain6-768x231.jpg 768w" sizes="(max-width: 936px) 100vw, 936px" />															</div>
+															<img width="936" height="282" src="/wp-content/uploads/2022/07/corss-chain6.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/corss-chain6.jpg 936w, /wp-content/uploads/2022/07/corss-chain6-300x90.jpg 300w, /wp-content/uploads/2022/07/corss-chain6-768x231.jpg 768w" sizes="(max-width: 936px) 100vw, 936px" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-3993815 elementor-widget elementor-widget-text-editor" data-id="3993815" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -173,7 +173,7 @@
 				</div>
 				<div class="elementor-element elementor-element-56c2d5a elementor-widget elementor-widget-image" data-id="56c2d5a" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="936" height="702" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/corss-chain7.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/corss-chain7.jpg 936w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/corss-chain7-300x225.jpg 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/corss-chain7-768x576.jpg 768w" sizes="(max-width: 936px) 100vw, 936px" />															</div>
+															<img width="936" height="702" src="/wp-content/uploads/2022/07/corss-chain7.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/corss-chain7.jpg 936w, /wp-content/uploads/2022/07/corss-chain7-300x225.jpg 300w, /wp-content/uploads/2022/07/corss-chain7-768x576.jpg 768w" sizes="(max-width: 936px) 100vw, 936px" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-87e5e23 elementor-widget elementor-widget-heading" data-id="87e5e23" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
@@ -186,7 +186,7 @@
 				</div>
 				<div class="elementor-element elementor-element-dbb8068 elementor-widget elementor-widget-image" data-id="dbb8068" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="936" height="720" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain8.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain8.jpg 936w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain8-300x231.jpg 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain8-768x591.jpg 768w" sizes="(max-width: 936px) 100vw, 936px" />															</div>
+															<img width="936" height="720" src="/wp-content/uploads/2022/07/cross-chain8.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/cross-chain8.jpg 936w, /wp-content/uploads/2022/07/cross-chain8-300x231.jpg 300w, /wp-content/uploads/2022/07/cross-chain8-768x591.jpg 768w" sizes="(max-width: 936px) 100vw, 936px" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-90d6b02 elementor-widget elementor-widget-text-editor" data-id="90d6b02" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -194,7 +194,7 @@
 				</div>
 				<div class="elementor-element elementor-element-ef2fb39 elementor-widget elementor-widget-image" data-id="ef2fb39" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="936" height="698" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain9.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain9.jpg 936w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain9-300x224.jpg 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain9-768x573.jpg 768w" sizes="(max-width: 936px) 100vw, 936px" />															</div>
+															<img width="936" height="698" src="/wp-content/uploads/2022/07/cross-chain9.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/cross-chain9.jpg 936w, /wp-content/uploads/2022/07/cross-chain9-300x224.jpg 300w, /wp-content/uploads/2022/07/cross-chain9-768x573.jpg 768w" sizes="(max-width: 936px) 100vw, 936px" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-2a2c902 elementor-widget elementor-widget-text-editor" data-id="2a2c902" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -202,7 +202,7 @@
 				</div>
 				<div class="elementor-element elementor-element-1070094 elementor-widget elementor-widget-image" data-id="1070094" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="936" height="700" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain10.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain10.jpg 936w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain10-300x224.jpg 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain10-768x574.jpg 768w" sizes="(max-width: 936px) 100vw, 936px" />															</div>
+															<img width="936" height="700" src="/wp-content/uploads/2022/07/cross-chain10.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/cross-chain10.jpg 936w, /wp-content/uploads/2022/07/cross-chain10-300x224.jpg 300w, /wp-content/uploads/2022/07/cross-chain10-768x574.jpg 768w" sizes="(max-width: 936px) 100vw, 936px" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-f763983 elementor-widget elementor-widget-text-editor" data-id="f763983" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -219,7 +219,7 @@
 				</div>
 				<div class="elementor-element elementor-element-925218d elementor-widget elementor-widget-image" data-id="925218d" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="936" height="698" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain11.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain11.jpg 936w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain11-300x224.jpg 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain11-768x573.jpg 768w" sizes="(max-width: 936px) 100vw, 936px" />															</div>
+															<img width="936" height="698" src="/wp-content/uploads/2022/07/cross-chain11.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/cross-chain11.jpg 936w, /wp-content/uploads/2022/07/cross-chain11-300x224.jpg 300w, /wp-content/uploads/2022/07/cross-chain11-768x573.jpg 768w" sizes="(max-width: 936px) 100vw, 936px" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-25aa23e elementor-widget elementor-widget-text-editor" data-id="25aa23e" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -227,7 +227,7 @@
 				</div>
 				<div class="elementor-element elementor-element-78f880f elementor-widget elementor-widget-image" data-id="78f880f" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="744" height="1024" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain-12-744x1024.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain-12-744x1024.jpg 744w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain-12-218x300.jpg 218w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain-12-768x1057.jpg 768w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain-12.jpg 850w" sizes="(max-width: 744px) 100vw, 744px" />															</div>
+															<img width="744" height="1024" src="/wp-content/uploads/2022/07/cross-chain-12-744x1024.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/cross-chain-12-744x1024.jpg 744w, /wp-content/uploads/2022/07/cross-chain-12-218x300.jpg 218w, /wp-content/uploads/2022/07/cross-chain-12-768x1057.jpg 768w, /wp-content/uploads/2022/07/cross-chain-12.jpg 850w" sizes="(max-width: 744px) 100vw, 744px" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-b5e3c2e elementor-widget elementor-widget-text-editor" data-id="b5e3c2e" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -235,7 +235,7 @@
 				</div>
 				<div class="elementor-element elementor-element-08dbb13 elementor-widget elementor-widget-image" data-id="08dbb13" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="936" height="852" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain-13.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain-13.jpg 936w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain-13-300x273.jpg 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain-13-768x699.jpg 768w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain-13-396x360.jpg 396w" sizes="(max-width: 936px) 100vw, 936px" />															</div>
+															<img width="936" height="852" src="/wp-content/uploads/2022/07/cross-chain-13.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/cross-chain-13.jpg 936w, /wp-content/uploads/2022/07/cross-chain-13-300x273.jpg 300w, /wp-content/uploads/2022/07/cross-chain-13-768x699.jpg 768w, /wp-content/uploads/2022/07/cross-chain-13-396x360.jpg 396w" sizes="(max-width: 936px) 100vw, 936px" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-afaed31 elementor-widget elementor-widget-text-editor" data-id="afaed31" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -243,7 +243,7 @@
 				</div>
 				<div class="elementor-element elementor-element-7b44f40 elementor-widget elementor-widget-image" data-id="7b44f40" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="936" height="934" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain-14.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain-14.jpg 936w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain-14-300x300.jpg 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain-14-150x150.jpg 150w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain-14-768x766.jpg 768w" sizes="(max-width: 936px) 100vw, 936px" />															</div>
+															<img width="936" height="934" src="/wp-content/uploads/2022/07/cross-chain-14.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/cross-chain-14.jpg 936w, /wp-content/uploads/2022/07/cross-chain-14-300x300.jpg 300w, /wp-content/uploads/2022/07/cross-chain-14-150x150.jpg 150w, /wp-content/uploads/2022/07/cross-chain-14-768x766.jpg 768w" sizes="(max-width: 936px) 100vw, 936px" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-8c9e92c elementor-widget elementor-widget-text-editor" data-id="8c9e92c" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -251,7 +251,7 @@
 				</div>
 				<div class="elementor-element elementor-element-85cf7e5 elementor-widget elementor-widget-image" data-id="85cf7e5" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="668" height="1024" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain-15-668x1024.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain-15-668x1024.jpg 668w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain-15-196x300.jpg 196w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain-15-768x1177.jpg 768w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain-15.jpg 846w" sizes="(max-width: 668px) 100vw, 668px" />															</div>
+															<img width="668" height="1024" src="/wp-content/uploads/2022/07/cross-chain-15-668x1024.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/cross-chain-15-668x1024.jpg 668w, /wp-content/uploads/2022/07/cross-chain-15-196x300.jpg 196w, /wp-content/uploads/2022/07/cross-chain-15-768x1177.jpg 768w, /wp-content/uploads/2022/07/cross-chain-15.jpg 846w" sizes="(max-width: 668px) 100vw, 668px" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-e79d199 elementor-widget elementor-widget-text-editor" data-id="e79d199" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -259,7 +259,7 @@
 				</div>
 				<div class="elementor-element elementor-element-acafea6 elementor-widget elementor-widget-image" data-id="acafea6" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="635" height="1024" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain-16-635x1024.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain-16-635x1024.jpg 635w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain-16-186x300.jpg 186w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain-16-768x1238.jpg 768w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cross-chain-16.jpg 804w" sizes="(max-width: 635px) 100vw, 635px" />															</div>
+															<img width="635" height="1024" src="/wp-content/uploads/2022/07/cross-chain-16-635x1024.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/cross-chain-16-635x1024.jpg 635w, /wp-content/uploads/2022/07/cross-chain-16-186x300.jpg 186w, /wp-content/uploads/2022/07/cross-chain-16-768x1238.jpg 768w, /wp-content/uploads/2022/07/cross-chain-16.jpg 804w" sizes="(max-width: 635px) 100vw, 635px" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-6279fa6 elementor-widget elementor-widget-text-editor" data-id="6279fa6" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -295,7 +295,7 @@
 			</item>
 		<item>
 		<title>从智能合约的演进看Move的架构设计</title>
-		<link>https://liangpin.ca/westar-demo/zh/%e4%bb%8e%e6%99%ba%e8%83%bd%e5%90%88%e7%ba%a6%e7%9a%84%e6%bc%94%e8%bf%9b%e7%9c%8bmove%e7%9a%84%e6%9e%b6%e6%9e%84%e8%ae%be%e8%ae%a1/</link>
+		<link>/zh/%e4%bb%8e%e6%99%ba%e8%83%bd%e5%90%88%e7%ba%a6%e7%9a%84%e6%bc%94%e8%bf%9b%e7%9c%8bmove%e7%9a%84%e6%9e%b6%e6%9e%84%e8%ae%be%e8%ae%a1/</link>
 		
 		<dc:creator><![CDATA[westar-demo]]></dc:creator>
 		<pubDate>Fri, 05 Aug 2022 21:09:10 +0000</pubDate>
@@ -334,9 +334,9 @@
 		<category><![CDATA[跨合约调用]]></category>
 		<category><![CDATA[链上原生资产]]></category>
 		<category><![CDATA[验证工具]]></category>
-		<guid isPermaLink="false">https://liangpin.ca/westar-demo/?p=2208</guid>
+		<guid isPermaLink="false">/?p=2208</guid>
 
-					<description><![CDATA[从智能合约的演进看 Move 的架构设计 智能合约是区块链领域大家一直比较关注的主题，本文试图从智能合约的演进 &#8230;<p class="read-more"> <a class="" href="https://liangpin.ca/westar-demo/zh/%e4%bb%8e%e6%99%ba%e8%83%bd%e5%90%88%e7%ba%a6%e7%9a%84%e6%bc%94%e8%bf%9b%e7%9c%8bmove%e7%9a%84%e6%9e%b6%e6%9e%84%e8%ae%be%e8%ae%a1/"> <span class="screen-reader-text">从智能合约的演进看Move的架构设计</span> 查看全文 &#187;</a></p>]]></description>
+					<description><![CDATA[从智能合约的演进看 Move 的架构设计 智能合约是区块链领域大家一直比较关注的主题，本文试图从智能合约的演进 &#8230;<p class="read-more"> <a class="" href="/zh/%e4%bb%8e%e6%99%ba%e8%83%bd%e5%90%88%e7%ba%a6%e7%9a%84%e6%bc%94%e8%bf%9b%e7%9c%8bmove%e7%9a%84%e6%9e%b6%e6%9e%84%e8%ae%be%e8%ae%a1/"> <span class="screen-reader-text">从智能合约的演进看Move的架构设计</span> 查看全文 &#187;</a></p>]]></description>
 										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="2208" class="elementor elementor-2208">
 									<section class="elementor-section elementor-top-section elementor-element elementor-element-7c42560 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7c42560" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
@@ -376,7 +376,7 @@
 				</div>
 				<div class="elementor-element elementor-element-8577aa5 elementor-widget elementor-widget-image" data-id="8577aa5" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="787" height="237" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/bitcoin-locking-unlocking-script.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/bitcoin-locking-unlocking-script.png 787w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/bitcoin-locking-unlocking-script-300x90.png 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/bitcoin-locking-unlocking-script-768x231.png 768w" sizes="(max-width: 787px) 100vw, 787px" />															</div>
+															<img width="787" height="237" src="/wp-content/uploads/2022/07/bitcoin-locking-unlocking-script.png" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/bitcoin-locking-unlocking-script.png 787w, /wp-content/uploads/2022/07/bitcoin-locking-unlocking-script-300x90.png 300w, /wp-content/uploads/2022/07/bitcoin-locking-unlocking-script-768x231.png 768w" sizes="(max-width: 787px) 100vw, 787px" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-2fc947e elementor-widget elementor-widget-text-editor" data-id="2fc947e" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -397,7 +397,7 @@
 				</div>
 				<div class="elementor-element elementor-element-1319041 elementor-widget elementor-widget-image" data-id="1319041" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="503" height="558" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/solidity-coin.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/solidity-coin.png 503w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/solidity-coin-270x300.png 270w" sizes="(max-width: 503px) 100vw, 503px" />															</div>
+															<img width="503" height="558" src="/wp-content/uploads/2022/07/solidity-coin.png" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/solidity-coin.png 503w, /wp-content/uploads/2022/07/solidity-coin-270x300.png 270w" sizes="(max-width: 503px) 100vw, 503px" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-9cda1df elementor-widget elementor-widget-text-editor" data-id="9cda1df" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -421,7 +421,7 @@
 				</div>
 				<div class="elementor-element elementor-element-be74446 elementor-widget elementor-widget-image" data-id="be74446" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="1024" height="711" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/ethereum-block-architecture-1024x711.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/ethereum-block-architecture-1024x711.png 1024w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/ethereum-block-architecture-300x208.png 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/ethereum-block-architecture-768x533.png 768w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/ethereum-block-architecture.png 1048w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
+															<img width="1024" height="711" src="/wp-content/uploads/2022/07/ethereum-block-architecture-1024x711.png" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/ethereum-block-architecture-1024x711.png 1024w, /wp-content/uploads/2022/07/ethereum-block-architecture-300x208.png 300w, /wp-content/uploads/2022/07/ethereum-block-architecture-768x533.png 768w, /wp-content/uploads/2022/07/ethereum-block-architecture.png 1048w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-ab9d007 elementor-widget elementor-widget-text-editor" data-id="ab9d007" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -441,7 +441,7 @@
 				</div>
 				<div class="elementor-element elementor-element-15eab36 elementor-widget elementor-widget-image" data-id="15eab36" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="900" height="302" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/erc20.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/erc20.png 900w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/erc20-300x101.png 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/erc20-768x258.png 768w" sizes="(max-width: 900px) 100vw, 900px" />															</div>
+															<img width="900" height="302" src="/wp-content/uploads/2022/07/erc20.png" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/erc20.png 900w, /wp-content/uploads/2022/07/erc20-300x101.png 300w, /wp-content/uploads/2022/07/erc20-768x258.png 768w" sizes="(max-width: 900px) 100vw, 900px" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-2f685b4 elementor-widget elementor-widget-text-editor" data-id="2f685b4" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -475,7 +475,7 @@
 				</div>
 				<div class="elementor-element elementor-element-a9ac232 elementor-widget elementor-widget-image" data-id="a9ac232" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="481" height="261" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/foolcoin-transfer.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/foolcoin-transfer.png 481w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/foolcoin-transfer-300x163.png 300w" sizes="(max-width: 481px) 100vw, 481px" />															</div>
+															<img width="481" height="261" src="/wp-content/uploads/2022/07/foolcoin-transfer.png" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/foolcoin-transfer.png 481w, /wp-content/uploads/2022/07/foolcoin-transfer-300x163.png 300w" sizes="(max-width: 481px) 100vw, 481px" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-b32c5c6 elementor-widget elementor-widget-text-editor" data-id="b32c5c6" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -530,7 +530,7 @@
 				</div>
 				<div class="elementor-element elementor-element-0513aa8 elementor-widget elementor-widget-image" data-id="0513aa8" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="400" height="686" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/libra-coin.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/libra-coin.png 400w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/libra-coin-175x300.png 175w" sizes="(max-width: 400px) 100vw, 400px" />															</div>
+															<img width="400" height="686" src="/wp-content/uploads/2022/07/libra-coin.png" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/libra-coin.png 400w, /wp-content/uploads/2022/07/libra-coin-175x300.png 175w" sizes="(max-width: 400px) 100vw, 400px" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-937c0fb elementor-widget elementor-widget-text-editor" data-id="937c0fb" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -538,7 +538,7 @@
 				</div>
 				<div class="elementor-element elementor-element-f1d8fec elementor-widget elementor-widget-image" data-id="f1d8fec" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="573" height="750" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/libra-coin2.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/libra-coin2.png 573w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/libra-coin2-229x300.png 229w" sizes="(max-width: 573px) 100vw, 573px" />															</div>
+															<img width="573" height="750" src="/wp-content/uploads/2022/07/libra-coin2.png" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/libra-coin2.png 573w, /wp-content/uploads/2022/07/libra-coin2-229x300.png 229w" sizes="(max-width: 573px) 100vw, 573px" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-12fd929 elementor-widget elementor-widget-text-editor" data-id="12fd929" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -546,7 +546,7 @@
 				</div>
 				<div class="elementor-element elementor-element-4ed3940 elementor-widget elementor-widget-image" data-id="4ed3940" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="858" height="586" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/libra-coin3.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/libra-coin3.png 858w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/libra-coin3-300x205.png 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/libra-coin3-768x525.png 768w" sizes="(max-width: 858px) 100vw, 858px" />															</div>
+															<img width="858" height="586" src="/wp-content/uploads/2022/07/libra-coin3.png" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/libra-coin3.png 858w, /wp-content/uploads/2022/07/libra-coin3-300x205.png 300w, /wp-content/uploads/2022/07/libra-coin3-768x525.png 768w" sizes="(max-width: 858px) 100vw, 858px" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-453ff84 elementor-widget elementor-widget-text-editor" data-id="453ff84" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -554,7 +554,7 @@
 				</div>
 				<div class="elementor-element elementor-element-578f505 elementor-widget elementor-widget-image" data-id="578f505" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="1024" height="745" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/libra-account-1024x745.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/libra-account-1024x745.png 1024w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/libra-account-300x218.png 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/libra-account-768x559.png 768w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/libra-account-1536x1117.png 1536w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/libra-account.png 1996w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
+															<img width="1024" height="745" src="/wp-content/uploads/2022/07/libra-account-1024x745.png" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/libra-account-1024x745.png 1024w, /wp-content/uploads/2022/07/libra-account-300x218.png 300w, /wp-content/uploads/2022/07/libra-account-768x559.png 768w, /wp-content/uploads/2022/07/libra-account-1536x1117.png 1536w, /wp-content/uploads/2022/07/libra-account.png 1996w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-aaa20b9 elementor-widget elementor-widget-text-editor" data-id="aaa20b9" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -562,7 +562,7 @@
 				</div>
 				<div class="elementor-element elementor-element-c40b739 elementor-widget elementor-widget-image" data-id="c40b739" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="948" height="1024" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/hash-time-lock-948x1024.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/hash-time-lock-948x1024.png 948w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/hash-time-lock-278x300.png 278w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/hash-time-lock-768x830.png 768w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/hash-time-lock-1421x1536.png 1421w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/hash-time-lock.png 1688w" sizes="(max-width: 948px) 100vw, 948px" />															</div>
+															<img width="948" height="1024" src="/wp-content/uploads/2022/07/hash-time-lock-948x1024.png" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/hash-time-lock-948x1024.png 948w, /wp-content/uploads/2022/07/hash-time-lock-278x300.png 278w, /wp-content/uploads/2022/07/hash-time-lock-768x830.png 768w, /wp-content/uploads/2022/07/hash-time-lock-1421x1536.png 1421w, /wp-content/uploads/2022/07/hash-time-lock.png 1688w" sizes="(max-width: 948px) 100vw, 948px" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-e04b1d3 elementor-widget elementor-widget-text-editor" data-id="e04b1d3" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -570,7 +570,7 @@
 				</div>
 				<div class="elementor-element elementor-element-b04f831 elementor-widget elementor-widget-image" data-id="b04f831" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="627" height="607" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/hash-time-lock-script.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/hash-time-lock-script.png 627w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/hash-time-lock-script-300x290.png 300w" sizes="(max-width: 627px) 100vw, 627px" />															</div>
+															<img width="627" height="607" src="/wp-content/uploads/2022/07/hash-time-lock-script.png" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/hash-time-lock-script.png 627w, /wp-content/uploads/2022/07/hash-time-lock-script-300x290.png 300w" sizes="(max-width: 627px) 100vw, 627px" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-a1c7c04 elementor-widget elementor-widget-text-editor" data-id="a1c7c04" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -603,7 +603,7 @@
 				</div>
 				<div class="elementor-element elementor-element-a11638b elementor-widget elementor-widget-image" data-id="a11638b" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="1024" height="692" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/token-1024x692.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/token-1024x692.png 1024w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/token-300x203.png 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/token-768x519.png 768w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/token-1536x1038.png 1536w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/token.png 1986w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
+															<img width="1024" height="692" src="/wp-content/uploads/2022/07/token-1024x692.png" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/token-1024x692.png 1024w, /wp-content/uploads/2022/07/token-300x203.png 300w, /wp-content/uploads/2022/07/token-768x519.png 768w, /wp-content/uploads/2022/07/token-1536x1038.png 1536w, /wp-content/uploads/2022/07/token.png 1986w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-5fa66c8 elementor-widget elementor-widget-text-editor" data-id="5fa66c8" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -611,7 +611,7 @@
 				</div>
 				<div class="elementor-element elementor-element-9e907bd elementor-widget elementor-widget-image" data-id="9e907bd" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="1024" height="393" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/move-vs-solidity-1024x393.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/move-vs-solidity-1024x393.png 1024w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/move-vs-solidity-300x115.png 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/move-vs-solidity-768x295.png 768w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/move-vs-solidity-1536x589.png 1536w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/move-vs-solidity.png 1824w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
+															<img width="1024" height="393" src="/wp-content/uploads/2022/07/move-vs-solidity-1024x393.png" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/move-vs-solidity-1024x393.png 1024w, /wp-content/uploads/2022/07/move-vs-solidity-300x115.png 300w, /wp-content/uploads/2022/07/move-vs-solidity-768x295.png 768w, /wp-content/uploads/2022/07/move-vs-solidity-1536x589.png 1536w, /wp-content/uploads/2022/07/move-vs-solidity.png 1824w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-bfcfe73 elementor-widget elementor-widget-text-editor" data-id="bfcfe73" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -627,7 +627,7 @@
 				</div>
 				<div class="elementor-element elementor-element-057c3d5 elementor-widget elementor-widget-image" data-id="057c3d5" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="718" height="124" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/libra-global-state.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/libra-global-state.png 718w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/libra-global-state-300x52.png 300w" sizes="(max-width: 718px) 100vw, 718px" />															</div>
+															<img width="718" height="124" src="/wp-content/uploads/2022/07/libra-global-state.png" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/libra-global-state.png 718w, /wp-content/uploads/2022/07/libra-global-state-300x52.png 300w" sizes="(max-width: 718px) 100vw, 718px" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-ebcf564 elementor-widget elementor-widget-text-editor" data-id="ebcf564" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -635,7 +635,7 @@
 				</div>
 				<div class="elementor-element elementor-element-2682cc1 elementor-widget elementor-widget-image" data-id="2682cc1" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="956" height="424" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/libra-global-state2.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/libra-global-state2.png 956w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/libra-global-state2-300x133.png 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/libra-global-state2-768x341.png 768w" sizes="(max-width: 956px) 100vw, 956px" />															</div>
+															<img width="956" height="424" src="/wp-content/uploads/2022/07/libra-global-state2.png" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/libra-global-state2.png 956w, /wp-content/uploads/2022/07/libra-global-state2-300x133.png 300w, /wp-content/uploads/2022/07/libra-global-state2-768x341.png 768w" sizes="(max-width: 956px) 100vw, 956px" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-c4ed3c4 elementor-widget elementor-widget-text-editor" data-id="c4ed3c4" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -647,7 +647,7 @@
 				</div>
 				<div class="elementor-element elementor-element-8aeff26 elementor-widget elementor-widget-image" data-id="8aeff26" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="1024" height="749" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/merkle-tree-accumulator-1024x749.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/merkle-tree-accumulator-1024x749.png 1024w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/merkle-tree-accumulator-300x219.png 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/merkle-tree-accumulator-768x562.png 768w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/merkle-tree-accumulator-1536x1124.png 1536w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/merkle-tree-accumulator.png 1848w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
+															<img width="1024" height="749" src="/wp-content/uploads/2022/07/merkle-tree-accumulator-1024x749.png" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/merkle-tree-accumulator-1024x749.png 1024w, /wp-content/uploads/2022/07/merkle-tree-accumulator-300x219.png 300w, /wp-content/uploads/2022/07/merkle-tree-accumulator-768x562.png 768w, /wp-content/uploads/2022/07/merkle-tree-accumulator-1536x1124.png 1536w, /wp-content/uploads/2022/07/merkle-tree-accumulator.png 1848w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-9440a06 elementor-widget elementor-widget-text-editor" data-id="9440a06" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -655,7 +655,7 @@
 				</div>
 				<div class="elementor-element elementor-element-b2305a5 elementor-widget elementor-widget-image" data-id="b2305a5" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="960" height="499" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/sparse-merkle-tree.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/sparse-merkle-tree.png 960w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/sparse-merkle-tree-300x156.png 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/sparse-merkle-tree-768x399.png 768w" sizes="(max-width: 960px) 100vw, 960px" />															</div>
+															<img width="960" height="499" src="/wp-content/uploads/2022/07/sparse-merkle-tree.png" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/sparse-merkle-tree.png 960w, /wp-content/uploads/2022/07/sparse-merkle-tree-300x156.png 300w, /wp-content/uploads/2022/07/sparse-merkle-tree-768x399.png 768w" sizes="(max-width: 960px) 100vw, 960px" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-f1e096e elementor-widget elementor-widget-text-editor" data-id="f1e096e" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -663,7 +663,7 @@
 				</div>
 				<div class="elementor-element elementor-element-da53f43 elementor-widget elementor-widget-text-editor" data-id="da53f43" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-							<p class="p1">Ethereum 用 Merkle Tree 来存状态，提供状态证明，遇到的第一个问题就是 Merkle Tree 的高度太高，计算和存储成本高，生成的证明也很大。于是它做了一个优化，相当于把二叉树给变成十六叉树了。而 Libra 的思路类似，也是给路径做压缩。比如上图中的 1 是一棵完整的二叉树，2 优化掉了空的子树，3 在不产生分歧的情况下，优化掉了中间的节点，缩短了路径。可以说和 Ethereum 的 Merkle Patricia Tree 殊途同归，但 Sparse Merkle tree 的一个独特优点是可以提供不存在证明。更详细的算法实现分析可以看 @lerencao 的文章 <a href="https://liangpin.ca/westar-demo/jellyfish-merkle-tree-in-libra-blockchain/"><span style="color: #ff0000;">Jellyfish Merkle Tree in Libra Blockchain</span></a>。</p>						</div>
+							<p class="p1">Ethereum 用 Merkle Tree 来存状态，提供状态证明，遇到的第一个问题就是 Merkle Tree 的高度太高，计算和存储成本高，生成的证明也很大。于是它做了一个优化，相当于把二叉树给变成十六叉树了。而 Libra 的思路类似，也是给路径做压缩。比如上图中的 1 是一棵完整的二叉树，2 优化掉了空的子树，3 在不产生分歧的情况下，优化掉了中间的节点，缩短了路径。可以说和 Ethereum 的 Merkle Patricia Tree 殊途同归，但 Sparse Merkle tree 的一个独特优点是可以提供不存在证明。更详细的算法实现分析可以看 @lerencao 的文章 <a href="/jellyfish-merkle-tree-in-libra-blockchain/"><span style="color: #ff0000;">Jellyfish Merkle Tree in Libra Blockchain</span></a>。</p>						</div>
 				</div>
 				<div class="elementor-element elementor-element-f361361 elementor-widget elementor-widget-heading" data-id="f361361" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
@@ -693,7 +693,7 @@
 			</item>
 		<item>
 		<title>一文盘点Starcoin十大亮点</title>
-		<link>https://liangpin.ca/westar-demo/zh/%e4%b8%80%e6%96%87%e7%9b%98%e7%82%b9starcoin%e5%8d%81%e5%a4%a7%e4%ba%ae%e7%82%b9/</link>
+		<link>/zh/%e4%b8%80%e6%96%87%e7%9b%98%e7%82%b9starcoin%e5%8d%81%e5%a4%a7%e4%ba%ae%e7%82%b9/</link>
 		
 		<dc:creator><![CDATA[westar-demo]]></dc:creator>
 		<pubDate>Fri, 05 Aug 2022 18:05:08 +0000</pubDate>
@@ -728,9 +728,9 @@
 		<category><![CDATA[智能合约]]></category>
 		<category><![CDATA[线性逻辑]]></category>
 		<category><![CDATA[链上治理DAO]]></category>
-		<guid isPermaLink="false">https://liangpin.ca/westar-demo/?p=2088</guid>
+		<guid isPermaLink="false">/?p=2088</guid>
 
-					<description><![CDATA[一文盘点 Starcoin 十大亮点 2021年5月18日，Starcoin公开举办了一场Starcoin主网 &#8230;<p class="read-more"> <a class="" href="https://liangpin.ca/westar-demo/zh/%e4%b8%80%e6%96%87%e7%9b%98%e7%82%b9starcoin%e5%8d%81%e5%a4%a7%e4%ba%ae%e7%82%b9/"> <span class="screen-reader-text">一文盘点Starcoin十大亮点</span> 查看全文 &#187;</a></p>]]></description>
+					<description><![CDATA[一文盘点 Starcoin 十大亮点 2021年5月18日，Starcoin公开举办了一场Starcoin主网 &#8230;<p class="read-more"> <a class="" href="/zh/%e4%b8%80%e6%96%87%e7%9b%98%e7%82%b9starcoin%e5%8d%81%e5%a4%a7%e4%ba%ae%e7%82%b9/"> <span class="screen-reader-text">一文盘点Starcoin十大亮点</span> 查看全文 &#187;</a></p>]]></description>
 										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="2088" class="elementor elementor-2088">
 									<section class="elementor-section elementor-top-section elementor-element elementor-element-deeb4dc elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="deeb4dc" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
@@ -766,7 +766,7 @@
 				</div>
 				<div class="elementor-element elementor-element-45d6b01 elementor-widget elementor-widget-image" data-id="45d6b01" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="988" height="510" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_economy.jpeg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_economy.jpeg 988w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_economy-300x155.jpeg 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_economy-768x396.jpeg 768w" sizes="(max-width: 988px) 100vw, 988px" />															</div>
+															<img width="988" height="510" src="/wp-content/uploads/2022/07/starcoin_economy.jpeg" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/starcoin_economy.jpeg 988w, /wp-content/uploads/2022/07/starcoin_economy-300x155.jpeg 300w, /wp-content/uploads/2022/07/starcoin_economy-768x396.jpeg 768w" sizes="(max-width: 988px) 100vw, 988px" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-2978e70 elementor-widget elementor-widget-heading" data-id="2978e70" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
@@ -778,7 +778,7 @@
 				</div>
 				<div class="elementor-element elementor-element-863b8f9 elementor-widget elementor-widget-image" data-id="863b8f9" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="834" height="441" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_account_example.jpeg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_account_example.jpeg 834w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_account_example-300x159.jpeg 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_account_example-768x406.jpeg 768w" sizes="(max-width: 834px) 100vw, 834px" />															</div>
+															<img width="834" height="441" src="/wp-content/uploads/2022/07/starcoin_account_example.jpeg" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/starcoin_account_example.jpeg 834w, /wp-content/uploads/2022/07/starcoin_account_example-300x159.jpeg 300w, /wp-content/uploads/2022/07/starcoin_account_example-768x406.jpeg 768w" sizes="(max-width: 834px) 100vw, 834px" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-173bc70 elementor-widget elementor-widget-heading" data-id="173bc70" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
@@ -798,7 +798,7 @@
 				</div>
 				<div class="elementor-element elementor-element-feb50ce elementor-widget elementor-widget-image" data-id="feb50ce" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="826" height="434" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_resource_vs_info.jpeg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_resource_vs_info.jpeg 826w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_resource_vs_info-300x158.jpeg 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_resource_vs_info-768x404.jpeg 768w" sizes="(max-width: 826px) 100vw, 826px" />															</div>
+															<img width="826" height="434" src="/wp-content/uploads/2022/07/starcoin_resource_vs_info.jpeg" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/starcoin_resource_vs_info.jpeg 826w, /wp-content/uploads/2022/07/starcoin_resource_vs_info-300x158.jpeg 300w, /wp-content/uploads/2022/07/starcoin_resource_vs_info-768x404.jpeg 768w" sizes="(max-width: 826px) 100vw, 826px" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-ba3d276 elementor-widget elementor-widget-heading" data-id="ba3d276" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
@@ -810,7 +810,7 @@
 				</div>
 				<div class="elementor-element elementor-element-7eb7e99 elementor-widget elementor-widget-image" data-id="7eb7e99" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="512" height="218" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_move_spec.jpeg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_move_spec.jpeg 512w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_move_spec-300x128.jpeg 300w" sizes="(max-width: 512px) 100vw, 512px" />															</div>
+															<img width="512" height="218" src="/wp-content/uploads/2022/07/starcoin_move_spec.jpeg" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/starcoin_move_spec.jpeg 512w, /wp-content/uploads/2022/07/starcoin_move_spec-300x128.jpeg 300w" sizes="(max-width: 512px) 100vw, 512px" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-428f6ad elementor-widget elementor-widget-heading" data-id="428f6ad" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
@@ -830,7 +830,7 @@
 				</div>
 				<div class="elementor-element elementor-element-38832e5 elementor-widget elementor-widget-image" data-id="38832e5" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="270" height="152" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_dao.jpeg" class="attachment-large size-large" alt="" loading="lazy" />															</div>
+															<img width="270" height="152" src="/wp-content/uploads/2022/07/starcoin_dao.jpeg" class="attachment-large size-large" alt="" loading="lazy" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-caf92a6 elementor-widget elementor-widget-heading" data-id="caf92a6" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
@@ -842,7 +842,7 @@
 				</div>
 				<div class="elementor-element elementor-element-ca2bf27 elementor-widget elementor-widget-image" data-id="ca2bf27" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="764" height="1024" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_upgrade-764x1024.jpeg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_upgrade-764x1024.jpeg 764w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_upgrade-224x300.jpeg 224w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_upgrade-768x1030.jpeg 768w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_upgrade.jpeg 804w" sizes="(max-width: 764px) 100vw, 764px" />															</div>
+															<img width="764" height="1024" src="/wp-content/uploads/2022/07/starcoin_upgrade-764x1024.jpeg" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/starcoin_upgrade-764x1024.jpeg 764w, /wp-content/uploads/2022/07/starcoin_upgrade-224x300.jpeg 224w, /wp-content/uploads/2022/07/starcoin_upgrade-768x1030.jpeg 768w, /wp-content/uploads/2022/07/starcoin_upgrade.jpeg 804w" sizes="(max-width: 764px) 100vw, 764px" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-a4901fa elementor-widget elementor-widget-heading" data-id="a4901fa" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
@@ -854,7 +854,7 @@
 				</div>
 				<div class="elementor-element elementor-element-00062c0 elementor-widget elementor-widget-image" data-id="00062c0" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="1024" height="364" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_logo-1024x364.jpeg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_logo-1024x364.jpeg 1024w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_logo-300x107.jpeg 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_logo-768x273.jpeg 768w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_logo.jpeg 1108w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
+															<img width="1024" height="364" src="/wp-content/uploads/2022/07/starcoin_logo-1024x364.jpeg" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/starcoin_logo-1024x364.jpeg 1024w, /wp-content/uploads/2022/07/starcoin_logo-300x107.jpeg 300w, /wp-content/uploads/2022/07/starcoin_logo-768x273.jpeg 768w, /wp-content/uploads/2022/07/starcoin_logo.jpeg 1108w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-e24e379 elementor-widget elementor-widget-heading" data-id="e24e379" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">

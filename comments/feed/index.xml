@@ -8,10 +8,10 @@
 <channel>
 	<title>
 	Comments for Westar	</title>
-	<atom:link href="https://liangpin.ca/westar-demo/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>https://liangpin.ca/westar-demo</link>
+	<atom:link href="/comments/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
 	<description>Crypto-Native Blockchain Enthusiasts</description>
-	<lastBuildDate>Mon, 08 Aug 2022 15:10:09 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 09 Aug 2022 16:32:36 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>

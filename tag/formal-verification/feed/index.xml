@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Formal verification &#8211; Westar</title>
-	<atom:link href="https://liangpin.ca/westar-demo/tag/formal-verification/feed/" rel="self" type="application/rss+xml" />
-	<link>https://liangpin.ca/westar-demo</link>
+	<atom:link href="/tag/formal-verification/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
 	<description>Crypto-Native Blockchain Enthusiasts</description>
 	<lastBuildDate>Thu, 28 Jul 2022 16:50:44 +0000</lastBuildDate>
 	<language>en-CA</language>
@@ -21,15 +21,15 @@
 	<generator>https://wordpress.org/?v=6.0.1</generator>
 
 <image>
-	<url>https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/cropped-logo-icon-32x32.png</url>
+	<url>/wp-content/uploads/2022/07/cropped-logo-icon-32x32.png</url>
 	<title>Formal verification &#8211; Westar</title>
-	<link>https://liangpin.ca/westar-demo</link>
+	<link></link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Top 10 highlights of StarCoin</title>
-		<link>https://liangpin.ca/westar-demo/top-10-highlights-of-starcoin/</link>
+		<link>/top-10-highlights-of-starcoin/</link>
 		
 		<dc:creator><![CDATA[westar-demo]]></dc:creator>
 		<pubDate>Wed, 27 Jul 2022 15:17:27 +0000</pubDate>
@@ -46,9 +46,9 @@
 		<category><![CDATA[smart contract language for linear logic]]></category>
 		<category><![CDATA[starcoin]]></category>
 		<category><![CDATA[Stdlib]]></category>
-		<guid isPermaLink="false">https://liangpin.ca/westar-demo/?p=953</guid>
+		<guid isPermaLink="false">/?p=953</guid>
 
-					<description><![CDATA[top 10 highlights of starcoin On May 18, 2021, Starcoin publicly held an event to launch the Starcoin mainnet, inviting a group of crypto industry leaders, builders and innovators to witness the birth of the Starcoin mainnet. just a few months after the Starcoin mainnet went online, it has won a lot of attention in &#8230;<p class="read-more"> <a class="" href="https://liangpin.ca/westar-demo/top-10-highlights-of-starcoin/"> <span class="screen-reader-text">Top 10 highlights of StarCoin</span> Read More &#187;</a></p>]]></description>
+					<description><![CDATA[top 10 highlights of starcoin On May 18, 2021, Starcoin publicly held an event to launch the Starcoin mainnet, inviting a group of crypto industry leaders, builders and innovators to witness the birth of the Starcoin mainnet. just a few months after the Starcoin mainnet went online, it has won a lot of attention in &#8230;<p class="read-more"> <a class="" href="/top-10-highlights-of-starcoin/"> <span class="screen-reader-text">Top 10 highlights of StarCoin</span> Read More &#187;</a></p>]]></description>
 										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="953" class="elementor elementor-953">
 									<section class="elementor-section elementor-top-section elementor-element elementor-element-deeb4dc elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="deeb4dc" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
@@ -87,7 +87,7 @@
 				<div class="elementor-element elementor-element-45d6b01 elementor-widget elementor-widget-image" data-id="45d6b01" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
 			<style>/*! elementor - v3.6.7 - 03-07-2022 */
-.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>												<img width="988" height="510" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_economy.jpeg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_economy.jpeg 988w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_economy-300x155.jpeg 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_economy-768x396.jpeg 768w" sizes="(max-width: 988px) 100vw, 988px" />															</div>
+.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>												<img width="988" height="510" src="/wp-content/uploads/2022/07/starcoin_economy.jpeg" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/starcoin_economy.jpeg 988w, /wp-content/uploads/2022/07/starcoin_economy-300x155.jpeg 300w, /wp-content/uploads/2022/07/starcoin_economy-768x396.jpeg 768w" sizes="(max-width: 988px) 100vw, 988px" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-2978e70 elementor-widget elementor-widget-heading" data-id="2978e70" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
@@ -99,7 +99,7 @@
 				</div>
 				<div class="elementor-element elementor-element-863b8f9 elementor-widget elementor-widget-image" data-id="863b8f9" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="834" height="441" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_account_example.jpeg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_account_example.jpeg 834w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_account_example-300x159.jpeg 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_account_example-768x406.jpeg 768w" sizes="(max-width: 834px) 100vw, 834px" />															</div>
+															<img width="834" height="441" src="/wp-content/uploads/2022/07/starcoin_account_example.jpeg" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/starcoin_account_example.jpeg 834w, /wp-content/uploads/2022/07/starcoin_account_example-300x159.jpeg 300w, /wp-content/uploads/2022/07/starcoin_account_example-768x406.jpeg 768w" sizes="(max-width: 834px) 100vw, 834px" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-173bc70 elementor-widget elementor-widget-heading" data-id="173bc70" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
@@ -119,7 +119,7 @@
 				</div>
 				<div class="elementor-element elementor-element-feb50ce elementor-widget elementor-widget-image" data-id="feb50ce" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="826" height="434" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_resource_vs_info.jpeg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_resource_vs_info.jpeg 826w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_resource_vs_info-300x158.jpeg 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_resource_vs_info-768x404.jpeg 768w" sizes="(max-width: 826px) 100vw, 826px" />															</div>
+															<img width="826" height="434" src="/wp-content/uploads/2022/07/starcoin_resource_vs_info.jpeg" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/starcoin_resource_vs_info.jpeg 826w, /wp-content/uploads/2022/07/starcoin_resource_vs_info-300x158.jpeg 300w, /wp-content/uploads/2022/07/starcoin_resource_vs_info-768x404.jpeg 768w" sizes="(max-width: 826px) 100vw, 826px" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-ba3d276 elementor-widget elementor-widget-heading" data-id="ba3d276" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
@@ -132,7 +132,7 @@
 				</div>
 				<div class="elementor-element elementor-element-7eb7e99 elementor-widget elementor-widget-image" data-id="7eb7e99" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="512" height="218" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_move_spec.jpeg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_move_spec.jpeg 512w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_move_spec-300x128.jpeg 300w" sizes="(max-width: 512px) 100vw, 512px" />															</div>
+															<img width="512" height="218" src="/wp-content/uploads/2022/07/starcoin_move_spec.jpeg" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/starcoin_move_spec.jpeg 512w, /wp-content/uploads/2022/07/starcoin_move_spec-300x128.jpeg 300w" sizes="(max-width: 512px) 100vw, 512px" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-428f6ad elementor-widget elementor-widget-heading" data-id="428f6ad" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
@@ -149,7 +149,7 @@
 				</div>
 				<div class="elementor-element elementor-element-38832e5 elementor-widget elementor-widget-image" data-id="38832e5" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="270" height="152" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_dao.jpeg" class="attachment-large size-large" alt="" loading="lazy" />															</div>
+															<img width="270" height="152" src="/wp-content/uploads/2022/07/starcoin_dao.jpeg" class="attachment-large size-large" alt="" loading="lazy" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-f7c68c4 elementor-widget elementor-widget-text-editor" data-id="f7c68c4" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -165,7 +165,7 @@
 				</div>
 				<div class="elementor-element elementor-element-ca2bf27 elementor-widget elementor-widget-image" data-id="ca2bf27" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="764" height="1024" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_upgrade-764x1024.jpeg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_upgrade-764x1024.jpeg 764w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_upgrade-224x300.jpeg 224w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_upgrade-768x1030.jpeg 768w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_upgrade.jpeg 804w" sizes="(max-width: 764px) 100vw, 764px" />															</div>
+															<img width="764" height="1024" src="/wp-content/uploads/2022/07/starcoin_upgrade-764x1024.jpeg" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/starcoin_upgrade-764x1024.jpeg 764w, /wp-content/uploads/2022/07/starcoin_upgrade-224x300.jpeg 224w, /wp-content/uploads/2022/07/starcoin_upgrade-768x1030.jpeg 768w, /wp-content/uploads/2022/07/starcoin_upgrade.jpeg 804w" sizes="(max-width: 764px) 100vw, 764px" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-a4901fa elementor-widget elementor-widget-heading" data-id="a4901fa" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
@@ -177,7 +177,7 @@
 				</div>
 				<div class="elementor-element elementor-element-00062c0 elementor-widget elementor-widget-image" data-id="00062c0" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="1024" height="364" src="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_logo-1024x364.jpeg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_logo-1024x364.jpeg 1024w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_logo-300x107.jpeg 300w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_logo-768x273.jpeg 768w, https://liangpin.ca/westar-demo/wp-content/uploads/2022/07/starcoin_logo.jpeg 1108w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
+															<img width="1024" height="364" src="/wp-content/uploads/2022/07/starcoin_logo-1024x364.jpeg" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/starcoin_logo-1024x364.jpeg 1024w, /wp-content/uploads/2022/07/starcoin_logo-300x107.jpeg 300w, /wp-content/uploads/2022/07/starcoin_logo-768x273.jpeg 768w, /wp-content/uploads/2022/07/starcoin_logo.jpeg 1108w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-e24e379 elementor-widget elementor-widget-heading" data-id="e24e379" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
