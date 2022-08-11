@@ -8,11 +8,11 @@
 	>
 
 <channel>
-	<title>Westar</title>
+	<title>Westar Labs</title>
 	<atom:link href="/zh/feed/" rel="self" type="application/rss+xml" />
 	<link></link>
-	<description>Crypto-Native Blockchain Enthusiasts</description>
-	<lastBuildDate>Mon, 08 Aug 2022 13:57:15 +0000</lastBuildDate>
+	<description>A Pioneering Team With Deep in Move Ecosystem.</description>
+	<lastBuildDate>Wed, 10 Aug 2022 13:43:02 +0000</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,7 @@
 
 <image>
 	<url>/wp-content/uploads/2022/07/cropped-logo-icon-32x32.png</url>
-	<title>Westar</title>
+	<title>Westar Labs</title>
 	<link></link>
 	<width>32</width>
 	<height>32</height>
@@ -488,7 +488,7 @@
 			</item>
 		<item>
 		<title>从智能合约的演进看Move的架构设计</title>
-		<link>/zh/%e4%bb%8e%e6%99%ba%e8%83%bd%e5%90%88%e7%ba%a6%e7%9a%84%e6%bc%94%e8%bf%9b%e7%9c%8bmove%e7%9a%84%e6%9e%b6%e6%9e%84%e8%ae%be%e8%ae%a1/</link>
+		<link>/zh/the-evolution-of-smart-contracts-in-the-design-of-moves-architecture-2/</link>
 		
 		<dc:creator><![CDATA[westar-demo]]></dc:creator>
 		<pubDate>Fri, 05 Aug 2022 21:09:10 +0000</pubDate>
@@ -529,7 +529,7 @@
 		<category><![CDATA[验证工具]]></category>
 		<guid isPermaLink="false">/?p=2208</guid>
 
-					<description><![CDATA[从智能合约的演进看 Move 的架构设计 智能合约是区块链领域大家一直比较关注的主题，本文试图从智能合约的演进 &#8230;<p class="read-more"> <a class="" href="/zh/%e4%bb%8e%e6%99%ba%e8%83%bd%e5%90%88%e7%ba%a6%e7%9a%84%e6%bc%94%e8%bf%9b%e7%9c%8bmove%e7%9a%84%e6%9e%b6%e6%9e%84%e8%ae%be%e8%ae%a1/"> <span class="screen-reader-text">从智能合约的演进看Move的架构设计</span> 查看全文 &#187;</a></p>]]></description>
+					<description><![CDATA[从智能合约的演进看 Move 的架构设计 智能合约是区块链领域大家一直比较关注的主题，本文试图从智能合约的演进 &#8230;<p class="read-more"> <a class="" href="/zh/the-evolution-of-smart-contracts-in-the-design-of-moves-architecture-2/"> <span class="screen-reader-text">从智能合约的演进看Move的架构设计</span> 查看全文 &#187;</a></p>]]></description>
 										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="2208" class="elementor elementor-2208">
 									<section class="elementor-section elementor-top-section elementor-element elementor-element-7c42560 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7c42560" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
@@ -885,7 +885,7 @@
 			</item>
 		<item>
 		<title>Move智能合约的形式化验证工具</title>
-		<link>/zh/move%e6%99%ba%e8%83%bd%e5%90%88%e7%ba%a6%e7%9a%84%e5%bd%a2%e5%bc%8f%e5%8c%96%e9%aa%8c%e8%af%81%e5%b7%a5%e5%85%b7/</link>
+		<link>/zh/formal-verification-tools-for-move-smart-contracts-2/</link>
 		
 		<dc:creator><![CDATA[westar-demo]]></dc:creator>
 		<pubDate>Fri, 05 Aug 2022 20:49:24 +0000</pubDate>
@@ -910,7 +910,7 @@
 		<category><![CDATA[验证工具]]></category>
 		<guid isPermaLink="false">/?p=2198</guid>
 
-					<description><![CDATA[Move智能合约的形式化验证工具 智能合约是一个对安全性要求非常高的领域，一个不经意的小bug很可能会导致不可 &#8230;<p class="read-more"> <a class="" href="/zh/move%e6%99%ba%e8%83%bd%e5%90%88%e7%ba%a6%e7%9a%84%e5%bd%a2%e5%bc%8f%e5%8c%96%e9%aa%8c%e8%af%81%e5%b7%a5%e5%85%b7/"> <span class="screen-reader-text">Move智能合约的形式化验证工具</span> 查看全文 &#187;</a></p>]]></description>
+					<description><![CDATA[Move智能合约的形式化验证工具 智能合约是一个对安全性要求非常高的领域，一个不经意的小bug很可能会导致不可 &#8230;<p class="read-more"> <a class="" href="/zh/formal-verification-tools-for-move-smart-contracts-2/"> <span class="screen-reader-text">Move智能合约的形式化验证工具</span> 查看全文 &#187;</a></p>]]></description>
 										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="2198" class="elementor elementor-2198">
 									<section class="elementor-section elementor-top-section elementor-element elementor-element-70285c8 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="70285c8" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
@@ -992,7 +992,7 @@
 			</item>
 		<item>
 		<title>一文盘点Starcoin十大亮点</title>
-		<link>/zh/%e4%b8%80%e6%96%87%e7%9b%98%e7%82%b9starcoin%e5%8d%81%e5%a4%a7%e4%ba%ae%e7%82%b9/</link>
+		<link>/zh/top-10-highlights-of-starcoin-2/</link>
 		
 		<dc:creator><![CDATA[westar-demo]]></dc:creator>
 		<pubDate>Fri, 05 Aug 2022 18:05:08 +0000</pubDate>
@@ -1029,7 +1029,7 @@
 		<category><![CDATA[链上治理DAO]]></category>
 		<guid isPermaLink="false">/?p=2088</guid>
 
-					<description><![CDATA[一文盘点 Starcoin 十大亮点 2021年5月18日，Starcoin公开举办了一场Starcoin主网 &#8230;<p class="read-more"> <a class="" href="/zh/%e4%b8%80%e6%96%87%e7%9b%98%e7%82%b9starcoin%e5%8d%81%e5%a4%a7%e4%ba%ae%e7%82%b9/"> <span class="screen-reader-text">一文盘点Starcoin十大亮点</span> 查看全文 &#187;</a></p>]]></description>
+					<description><![CDATA[一文盘点 Starcoin 十大亮点 2021年5月18日，Starcoin公开举办了一场Starcoin主网 &#8230;<p class="read-more"> <a class="" href="/zh/top-10-highlights-of-starcoin-2/"> <span class="screen-reader-text">一文盘点Starcoin十大亮点</span> 查看全文 &#187;</a></p>]]></description>
 										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="2088" class="elementor elementor-2088">
 									<section class="elementor-section elementor-top-section elementor-element elementor-element-deeb4dc elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="deeb4dc" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
